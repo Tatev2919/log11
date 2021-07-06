@@ -1,0 +1,1060 @@
+OneSpin 360 (R) - Version 2021.2.0_ec - Build Date May 29 2021
+Copyright (c) 2005-2021 by OneSpin Solutions GmbH. All rights reserved.
+-I- License queueing activated
+$tcl_library is set to: /home/cve/distributions/unreleased_distributions/EC_Relation/latest/onespin360/onespin/etc/tcl8.6
+init.tcl executed.
+source "/home/cve/distributions/unreleased_distributions/EC_Relation/latest/onespin360/onespin/etc/startup/onespin_defaults.tcl"
+-I- Mon May 31 02:32:49 2021 tcl layer initialized.
+source -signed "/home/cve/distributions/unreleased_distributions/EC_Relation/latest/onespin360/onespin/etc/startup/onespin_startup.tcl.obf"
+rename failed.
+rename failed.
+source "/home/knight/checkout_ec_relation/ec_tests/ec_systematic/feature_tests/Quartus_Pro20.3/Quartus_Pro20.3/Stratix10/std/elab_syn/ram/mlab_mapping/standard/1_4.tcl"
+-W- Unencrypted creation of 'synthesize_all' in file '/home/knight/checkout_ec_relation/ec_tests/include/ec_test/feature_tests/synthesis.inc'!
+-W- Unencrypted creation of 'generate_testbench' in file '/home/knight/checkout_ec_relation/ec_tests/include/ec_test/feature_tests/generate_tests.inc'!
+-W- Unencrypted creation of 'syn_gen_tests' in file '/home/knight/checkout_ec_relation/ec_tests/include/ec_test/feature_tests/syn_gen_tests.inc'!
+-W- Unencrypted creation of 'run_ec_feature_tests' in file '/home/knight/checkout_ec_relation/ec_tests/include/ec_test/feature_tests/syn_gen_tests.inc'!
+-W- Unencrypted creation of 'remove_verification_scripts' in file '/home/knight/checkout_ec_relation/ec_tests/include/ec_test/feature_tests/remove_verification_scripts.inc'!
+Initializing perf log file '/temp/local/NB/EC_Relation/ec_systematic/feature_tests/Quartus_Pro20.3/Quartus_Pro20.3/Stratix10/std/elab_syn_EC_Relation_Linux_x86_64_CentOS6/ec_systematic/feature_tests/Quartus_Pro20.3/Quartus_Pro20.3/Stratix10/std/elab_syn/ram/mlab_mapping/standard/5/result.perf'
+-I- Loading configuration file :: /home/knight/checkout_ec_relation/ec_tests/source/fpga/feature_tests/ram/mlab_mapping/1_4/config.inc
+-I- Configuration found in /home/knight/checkout_ec_relation/ec_tests/source/fpga/feature_tests/ram/mlab_mapping/1_4/config.inc
+-I- Time taken to load config.inc :: 40 milliseconds
+-W- OneSpin command 'compare' is being renamed.
+-W- OneSpin command 'compare' is being replaced.
+-W- OneSpin command 'set_mode' is being renamed.
+-W- OneSpin command 'set_mode' is being replaced.
+-I- Using synthesis directory 'rtl_syn' instead of elab_syn as both are the same
+-I- Verification script chosen : verification/synthesized/onespin.tcl
+-I- Loading 'EC' settings defined in file /home/cve/distributions/unreleased_distributions/EC_Relation/latest/onespin360/onespin/etc/startup/ec_settings.tcl.
+-I- Loading 'FPGA' settings defined in file /home/cve/distributions/unreleased_distributions/EC_Relation/latest/onespin360/onespin/etc/startup/ec_settings.tcl.
+-I- Loading 'RTL2GATE' settings defined in file /home/cve/distributions/unreleased_distributions/EC_Relation/latest/onespin360/onespin/etc/startup/ec_settings.tcl.
+-I- Enabling compiler directive pragma|synopsys|synthesis|onespin translate_off/on in golden design.
+-I- Enabling compiler directive pragma|synopsys|synthesis|onespin translate off/on in golden design.
+-I- Enabling compiler directive pragma|synopsys|synthesis|onespin synthesis_off/on in golden design.
+-I- Enabling compiler directive pragma|synopsys|synthesis|onespin synthesis off/on in golden design.
+-I- Compiler directives with trigger pragma|synopsys|synthesis|onespin will be ignored in revised design.
+-I- Loading 'ALTERA' settings defined in file /home/cve/distributions/unreleased_distributions/EC_Relation/latest/onespin360/onespin/etc/startup/ec_settings.tcl.
+::altera::quartus::get_quartus_root
+-I- Enabling compiler directive pragma|synopsys|synthesis|onespin translate_off/on in both designs.
+-I- Enabling compiler directive pragma|synopsys|synthesis|onespin translate off/on in both designs.
+-I- Enabling compiler directive pragma|synopsys|synthesis|onespin synthesis_off/on in both designs.
+-I- Enabling compiler directive pragma|synopsys|synthesis|onespin synthesis off/on in both designs.
+::altera::quartus::get_quartus_root
+quartus_root -- /home/software/Altera/pro/20.3/quartus
+::altera::quartus::init_altera_dev_tech
+-I- Parameter use_mda_transformation set to false
+-I- Applying 'ALTERA' settings (ec mode).
+-I- Loading 'stratix10' settings defined in file /home/cve/distributions/unreleased_distributions/EC_Relation/latest/onespin360/onespin/etc/startup/ec_settings.tcl.
+-I- synthesis_tool_name set to 'Quartus_Pro'
+-I- elaborate_tool_name set to 'Quartus_Pro'
+-I- fpga_device_version set to 'Altera_Stratix10'
+-I- synthesis_flow_step set to 'elab_syn'
+::altera::quartus::read_hdl_common
+-I- VHDL file(s) read successfully.
+-I- VHDL initialization file '/home/cve/distributions/unreleased_distributions/EC_Relation/latest/onespin360/onespin/lib/vhdl/scripts/read_vhdl.tcl' for design golden sourced successfully.
+-I- VHDL file(s) read successfully.
+-I- VHDL initialization file '/home/cve/distributions/unreleased_distributions/EC_Relation/latest/onespin360/onespin/lib/vhdl/scripts/read_vhdl.tcl' for design revised sourced successfully.
+-I- VHDL file(s) read successfully.
+-I- VHDL file(s) read successfully.
+-I- VHDL file(s) read successfully.
+-I- FileParse - Analyzing source file "/home/software/Altera/pro/20.3/quartus/eda/sim_lib/altera_primitives.v" .... [1]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/sim_lib/altera_primitives.v:38: Analyzing module ( global ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/sim_lib/altera_primitives.v:49: Analyzing module ( carry ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/sim_lib/altera_primitives.v:57: Analyzing module ( cascade ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/sim_lib/altera_primitives.v:65: Analyzing module ( carry_sum ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/sim_lib/altera_primitives.v:76: Analyzing module ( exp ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/sim_lib/altera_primitives.v:87: Analyzing module ( soft ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/sim_lib/altera_primitives.v:98: Analyzing module ( opndrn ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/sim_lib/altera_primitives.v:106: Analyzing module ( row_global ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/sim_lib/altera_primitives.v:114: Analyzing module ( TRI ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/sim_lib/altera_primitives.v:123: Analyzing module ( lut_input ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/sim_lib/altera_primitives.v:131: Analyzing module ( lut_output ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/sim_lib/altera_primitives.v:139: Analyzing module ( latch ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/sim_lib/altera_primitives.v:153: Analyzing module ( dlatch ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/sim_lib/altera_primitives.v:172: Analyzing module ( dlatchen ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/sim_lib/altera_primitives.v:190: Analyzing module ( prim_gdff ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/sim_lib/altera_primitives.v:222: Analyzing module ( dff ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/sim_lib/altera_primitives.v:233: Analyzing module ( dffe ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/sim_lib/altera_primitives.v:244: Analyzing module ( dffea ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/sim_lib/altera_primitives.v:266: Analyzing module ( dffeas ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/sim_lib/altera_primitives.v:360: Analyzing module ( prim_gtff ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/sim_lib/altera_primitives.v:386: Analyzing module ( tff ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/sim_lib/altera_primitives.v:397: Analyzing module ( tffe ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/sim_lib/altera_primitives.v:408: Analyzing module ( prim_gjkff ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/sim_lib/altera_primitives.v:438: Analyzing module ( jkff ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/sim_lib/altera_primitives.v:449: Analyzing module ( jkffe ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/sim_lib/altera_primitives.v:460: Analyzing module ( prim_gsrff ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/sim_lib/altera_primitives.v:490: Analyzing module ( srff ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/sim_lib/altera_primitives.v:501: Analyzing module ( srffe ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/sim_lib/altera_primitives.v:514: Analyzing module ( clklock ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/sim_lib/altera_primitives.v:909: Analyzing module ( alt_inbuf ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/sim_lib/altera_primitives.v:924: Analyzing module ( alt_outbuf ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/sim_lib/altera_primitives.v:943: Analyzing module ( alt_outbuf_tri ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/sim_lib/altera_primitives.v:963: Analyzing module ( alt_iobuf ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/sim_lib/altera_primitives.v:992: Analyzing module ( alt_inbuf_diff ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/sim_lib/altera_primitives.v:1022: Analyzing module ( alt_outbuf_diff ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/sim_lib/altera_primitives.v:1043: Analyzing module ( alt_outbuf_tri_diff ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/sim_lib/altera_primitives.v:1065: Analyzing module ( alt_iobuf_diff ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/sim_lib/altera_primitives.v:1104: Analyzing module ( alt_bidir_diff ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/sim_lib/altera_primitives.v:1142: Analyzing module ( alt_bidir_buf ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/sim_lib/altera_primitives.v:1175: Analyzing primitive ( PRIM_GDFF_LOW ). [8]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/sim_lib/altera_primitives.v:1218: Analyzing primitive ( PRIM_GDFF_LOW_SCLR_PRIORITY ). [8]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/sim_lib/altera_primitives.v:1261: Analyzing primitive ( PRIM_GDFF_HIGH ). [8]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/sim_lib/altera_primitives.v:1304: Analyzing primitive ( PRIM_GDFF_HIGH_SCLR_PRIORITY ). [8]
+-I- FileParse - Analyzing source file "/home/software/Altera/pro/20.3/quartus/eda/sim_lib/altera_primitives.v" .... [1]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/sim_lib/altera_primitives.v:38: Analyzing module ( global ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/sim_lib/altera_primitives.v:49: Analyzing module ( carry ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/sim_lib/altera_primitives.v:57: Analyzing module ( cascade ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/sim_lib/altera_primitives.v:65: Analyzing module ( carry_sum ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/sim_lib/altera_primitives.v:76: Analyzing module ( exp ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/sim_lib/altera_primitives.v:87: Analyzing module ( soft ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/sim_lib/altera_primitives.v:98: Analyzing module ( opndrn ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/sim_lib/altera_primitives.v:106: Analyzing module ( row_global ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/sim_lib/altera_primitives.v:114: Analyzing module ( TRI ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/sim_lib/altera_primitives.v:123: Analyzing module ( lut_input ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/sim_lib/altera_primitives.v:131: Analyzing module ( lut_output ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/sim_lib/altera_primitives.v:139: Analyzing module ( latch ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/sim_lib/altera_primitives.v:153: Analyzing module ( dlatch ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/sim_lib/altera_primitives.v:172: Analyzing module ( dlatchen ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/sim_lib/altera_primitives.v:190: Analyzing module ( prim_gdff ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/sim_lib/altera_primitives.v:222: Analyzing module ( dff ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/sim_lib/altera_primitives.v:233: Analyzing module ( dffe ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/sim_lib/altera_primitives.v:244: Analyzing module ( dffea ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/sim_lib/altera_primitives.v:266: Analyzing module ( dffeas ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/sim_lib/altera_primitives.v:360: Analyzing module ( prim_gtff ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/sim_lib/altera_primitives.v:386: Analyzing module ( tff ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/sim_lib/altera_primitives.v:397: Analyzing module ( tffe ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/sim_lib/altera_primitives.v:408: Analyzing module ( prim_gjkff ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/sim_lib/altera_primitives.v:438: Analyzing module ( jkff ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/sim_lib/altera_primitives.v:449: Analyzing module ( jkffe ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/sim_lib/altera_primitives.v:460: Analyzing module ( prim_gsrff ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/sim_lib/altera_primitives.v:490: Analyzing module ( srff ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/sim_lib/altera_primitives.v:501: Analyzing module ( srffe ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/sim_lib/altera_primitives.v:514: Analyzing module ( clklock ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/sim_lib/altera_primitives.v:909: Analyzing module ( alt_inbuf ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/sim_lib/altera_primitives.v:924: Analyzing module ( alt_outbuf ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/sim_lib/altera_primitives.v:943: Analyzing module ( alt_outbuf_tri ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/sim_lib/altera_primitives.v:963: Analyzing module ( alt_iobuf ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/sim_lib/altera_primitives.v:992: Analyzing module ( alt_inbuf_diff ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/sim_lib/altera_primitives.v:1022: Analyzing module ( alt_outbuf_diff ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/sim_lib/altera_primitives.v:1043: Analyzing module ( alt_outbuf_tri_diff ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/sim_lib/altera_primitives.v:1065: Analyzing module ( alt_iobuf_diff ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/sim_lib/altera_primitives.v:1104: Analyzing module ( alt_bidir_diff ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/sim_lib/altera_primitives.v:1142: Analyzing module ( alt_bidir_buf ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/sim_lib/altera_primitives.v:1175: Analyzing primitive ( PRIM_GDFF_LOW ). [8]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/sim_lib/altera_primitives.v:1218: Analyzing primitive ( PRIM_GDFF_LOW_SCLR_PRIORITY ). [8]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/sim_lib/altera_primitives.v:1261: Analyzing primitive ( PRIM_GDFF_HIGH ). [8]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/sim_lib/altera_primitives.v:1304: Analyzing primitive ( PRIM_GDFF_HIGH_SCLR_PRIORITY ). [8]
+-I- FileParse - Analyzing source file "/home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/altera_lnsim.sv" .... [1]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/altera_lnsim.sv:1631: Analyzing module ( generic_pll ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/altera_lnsim.sv:1665: Analyzing module ( generic_cdr ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/altera_lnsim.sv:2038: Analyzing module ( common_28nm_ram_pulse_generator ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/altera_lnsim.sv:2083: Analyzing module ( common_28nm_ram_register ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/altera_lnsim.sv:2157: Analyzing module ( common_28nm_ram_block ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/altera_lnsim.sv:3306: Analyzing module ( generic_m20k ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/altera_lnsim.sv:3537: Analyzing module ( generic_m10k ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/altera_lnsim.sv:3764: Analyzing module ( common_28nm_mlab_cell_pulse_generator ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/altera_lnsim.sv:3807: Analyzing module ( common_28nm_mlab_latch ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/altera_lnsim.sv:3847: Analyzing module ( common_28nm_mlab_cell_core ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/altera_lnsim.sv:4002: Analyzing module ( common_porta_latches ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/altera_lnsim.sv:4077: Analyzing module ( generic_28nm_hp_mlab_cell_impl ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/altera_lnsim.sv:4241: Analyzing module ( common_porta_registers ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/altera_lnsim.sv:4327: Analyzing module ( generic_28nm_lc_mlab_cell_impl ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/altera_lnsim.sv:4506: Analyzing module ( common_28nm_lutram_register ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/altera_lnsim.sv:4589: Analyzing module ( generic_14nm_mlab_cell_impl ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/altera_lnsim.sv:4768: Analyzing module ( common_14nm_lutram_register ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/altera_lnsim.sv:4850: Analyzing module ( generic_mux ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/altera_lnsim.sv:4862: Analyzing module ( generic_device_pll ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/altera_lnsim.sv:5088: Analyzing module ( altera_pll_reconfig_tasks ). [4]
+-I- /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/altera_lnsim.sv:5092: Null port declaration. [5]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/altera_lnsim.sv:9998: Analyzing module ( altera_stratixv_pll ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/altera_lnsim.sv:13925: Analyzing module ( altera_arriav_pll ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/altera_lnsim.sv:17849: Analyzing module ( altera_arriavgz_pll ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/altera_lnsim.sv:21773: Analyzing module ( altera_cyclonev_pll ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/altera_lnsim.sv:24399: Analyzing module ( altera_pll ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/altera_lnsim.sv:27035: Analyzing module ( dps_extra_kick ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/altera_lnsim.sv:27114: Analyzing module ( dprio_init ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/altera_lnsim.sv:27193: Analyzing module ( dps_pulse_gen ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/altera_lnsim.sv:27274: Analyzing module ( altera_iopll ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/altera_lnsim.sv:27836: Analyzing module ( dps_pulse_gen_iopll ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/altera_lnsim.sv:27896: Analyzing module ( twentynm_iopll_arlol ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/altera_lnsim.sv:28053: Analyzing module ( fourteennm_altera_iopll ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/altera_lnsim.sv:28567: Analyzing module ( dps_pulse_gen_fourteennm_iopll ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/altera_lnsim.sv:28760: Analyzing module ( fourteennm_simple_iopll ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/altera_lnsim.sv:29127: Analyzing module ( fourteennm_sub_iopll ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/altera_lnsim.sv:29949: Analyzing module ( twentynm_iopll_ip ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/altera_lnsim.sv:30563: Analyzing module ( altera_iopll_rotation_lcells ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/altera_lnsim.sv:30636: Analyzing module ( altera_pll_dps_lcell_comb ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/altera_lnsim.sv:30735: Analyzing module ( iopll_bootstrap ). [4]
+-I- FileParse - Analyzing source file "/home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/altera_lnsim.sv" .... [1]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/altera_lnsim.sv:1631: Analyzing module ( generic_pll ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/altera_lnsim.sv:1665: Analyzing module ( generic_cdr ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/altera_lnsim.sv:2038: Analyzing module ( common_28nm_ram_pulse_generator ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/altera_lnsim.sv:2083: Analyzing module ( common_28nm_ram_register ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/altera_lnsim.sv:2157: Analyzing module ( common_28nm_ram_block ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/altera_lnsim.sv:3306: Analyzing module ( generic_m20k ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/altera_lnsim.sv:3537: Analyzing module ( generic_m10k ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/altera_lnsim.sv:3764: Analyzing module ( common_28nm_mlab_cell_pulse_generator ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/altera_lnsim.sv:3807: Analyzing module ( common_28nm_mlab_latch ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/altera_lnsim.sv:3847: Analyzing module ( common_28nm_mlab_cell_core ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/altera_lnsim.sv:4002: Analyzing module ( common_porta_latches ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/altera_lnsim.sv:4077: Analyzing module ( generic_28nm_hp_mlab_cell_impl ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/altera_lnsim.sv:4241: Analyzing module ( common_porta_registers ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/altera_lnsim.sv:4327: Analyzing module ( generic_28nm_lc_mlab_cell_impl ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/altera_lnsim.sv:4506: Analyzing module ( common_28nm_lutram_register ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/altera_lnsim.sv:4589: Analyzing module ( generic_14nm_mlab_cell_impl ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/altera_lnsim.sv:4768: Analyzing module ( common_14nm_lutram_register ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/altera_lnsim.sv:4850: Analyzing module ( generic_mux ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/altera_lnsim.sv:4862: Analyzing module ( generic_device_pll ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/altera_lnsim.sv:5088: Analyzing module ( altera_pll_reconfig_tasks ). [4]
+-I- /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/altera_lnsim.sv:5092: Null port declaration. [5]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/altera_lnsim.sv:9998: Analyzing module ( altera_stratixv_pll ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/altera_lnsim.sv:13925: Analyzing module ( altera_arriav_pll ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/altera_lnsim.sv:17849: Analyzing module ( altera_arriavgz_pll ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/altera_lnsim.sv:21773: Analyzing module ( altera_cyclonev_pll ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/altera_lnsim.sv:24399: Analyzing module ( altera_pll ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/altera_lnsim.sv:27035: Analyzing module ( dps_extra_kick ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/altera_lnsim.sv:27114: Analyzing module ( dprio_init ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/altera_lnsim.sv:27193: Analyzing module ( dps_pulse_gen ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/altera_lnsim.sv:27274: Analyzing module ( altera_iopll ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/altera_lnsim.sv:27836: Analyzing module ( dps_pulse_gen_iopll ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/altera_lnsim.sv:27896: Analyzing module ( twentynm_iopll_arlol ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/altera_lnsim.sv:28053: Analyzing module ( fourteennm_altera_iopll ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/altera_lnsim.sv:28567: Analyzing module ( dps_pulse_gen_fourteennm_iopll ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/altera_lnsim.sv:28760: Analyzing module ( fourteennm_simple_iopll ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/altera_lnsim.sv:29127: Analyzing module ( fourteennm_sub_iopll ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/altera_lnsim.sv:29949: Analyzing module ( twentynm_iopll_ip ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/altera_lnsim.sv:30563: Analyzing module ( altera_iopll_rotation_lcells ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/altera_lnsim.sv:30636: Analyzing module ( altera_pll_dps_lcell_comb ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/altera_lnsim.sv:30735: Analyzing module ( iopll_bootstrap ). [4]
+-I- FileParse - Analyzing source file "/home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/common/prim_gdff.v" .... [1]
+-W- ModuleRedef - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/common/prim_gdff.v:17: Redefinition of module 'prim_gdff' - originally defined in /home/software/Altera/pro/20.3/quartus/eda/sim_lib/altera_primitives.v:190. [28]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/common/prim_gdff.v:17: Analyzing module ( prim_gdff ). [4]
+-I- FileParse - Analyzing source file "/home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/common/GLOBAL.v" .... [1]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/common/GLOBAL.v:16: Analyzing module ( GLOBAL ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/common/GLOBAL.v:24: Analyzing module ( altera_global ). [4]
+-I- FileParse - Analyzing source file "/home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/common/dlatch.v" .... [1]
+-W- ModuleRedef - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/common/dlatch.v:18: Redefinition of module 'dlatch' - originally defined in /home/software/Altera/pro/20.3/quartus/eda/sim_lib/altera_primitives.v:153. [28]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/common/dlatch.v:18: Analyzing module ( dlatch ). [4]
+-W- ModuleRedef - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/common/dlatch.v:36: Redefinition of module 'dlatchen' - originally defined in /home/software/Altera/pro/20.3/quartus/eda/sim_lib/altera_primitives.v:172. [28]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/common/dlatch.v:36: Analyzing module ( dlatchen ). [4]
+-I- FileParse - Analyzing source file "/home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/common/PRIM_DFF.v" .... [1]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/common/PRIM_DFF.v:17: Analyzing module ( PRIM_DFF ). [4]
+-I- FileParse - Analyzing source file "/home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/common/prim_gdff.v" .... [1]
+-W- ModuleRedef - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/common/prim_gdff.v:17: Redefinition of module 'prim_gdff' - originally defined in /home/software/Altera/pro/20.3/quartus/eda/sim_lib/altera_primitives.v:190. [28]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/common/prim_gdff.v:17: Analyzing module ( prim_gdff ). [4]
+-I- FileParse - Analyzing source file "/home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/common/GLOBAL.v" .... [1]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/common/GLOBAL.v:16: Analyzing module ( GLOBAL ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/common/GLOBAL.v:24: Analyzing module ( altera_global ). [4]
+-I- FileParse - Analyzing source file "/home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/common/dlatch.v" .... [1]
+-W- ModuleRedef - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/common/dlatch.v:18: Redefinition of module 'dlatch' - originally defined in /home/software/Altera/pro/20.3/quartus/eda/sim_lib/altera_primitives.v:153. [28]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/common/dlatch.v:18: Analyzing module ( dlatch ). [4]
+-W- ModuleRedef - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/common/dlatch.v:36: Redefinition of module 'dlatchen' - originally defined in /home/software/Altera/pro/20.3/quartus/eda/sim_lib/altera_primitives.v:172. [28]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/common/dlatch.v:36: Analyzing module ( dlatchen ). [4]
+-I- FileParse - Analyzing source file "/home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/common/PRIM_DFF.v" .... [1]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/common/PRIM_DFF.v:17: Analyzing module ( PRIM_DFF ). [4]
+-I- FileParse - Analyzing source file "/home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/common/lcell.sv" .... [1]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/common/lcell.sv:15: Analyzing module ( lcell ). [4]
+-I- FileParse - Analyzing source file "/home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/common/ct1_hip_atoms.sv" .... [1]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/common/ct1_hip_atoms.sv:18: Analyzing module ( ct1_hssi_x16_pcie ). [4]
+-I- FileParse - Analyzing source file "/home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/common/dffeas.sv" .... [1]
+-W- ModuleRedef - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/common/dffeas.sv:15: Redefinition of module 'dffeas' - originally defined in /home/software/Altera/pro/20.3/quartus/eda/sim_lib/altera_primitives.v:266. [28]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/common/dffeas.sv:15: Analyzing module ( dffeas ). [4]
+-I- FileParse - Analyzing source file "/home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/common/ct1_hssi_atoms.sv" .... [1]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/common/ct1_hssi_atoms.sv:46: Analyzing module ( ct1_atx_pll ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/common/ct1_hssi_atoms.sv:213: Analyzing module ( ct1_cmu_fpll_refclk_select ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/common/ct1_hssi_atoms.sv:302: Analyzing module ( ct1_cmu_fpll ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/common/ct1_hssi_atoms.sv:606: Analyzing module ( ct1_hssi_10g_rx_pcs ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/common/ct1_hssi_atoms.sv:779: Analyzing module ( ct1_hssi_10g_tx_pcs ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/common/ct1_hssi_atoms.sv:952: Analyzing module ( ct1_hssi_8g_rx_pcs ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/common/ct1_hssi_atoms.sv:1189: Analyzing module ( ct1_hssi_8g_tx_pcs ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/common/ct1_hssi_atoms.sv:1352: Analyzing module ( ct1_hssi_adapt_rx ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/common/ct1_hssi_atoms.sv:1696: Analyzing module ( ct1_hssi_adapt_tx ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/common/ct1_hssi_atoms.sv:1964: Analyzing module ( ct1_hssi_aib_ssm ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/common/ct1_hssi_atoms.sv:2116: Analyzing module ( ct1_hssi_aibcr_rx ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/common/ct1_hssi_atoms.sv:2351: Analyzing module ( ct1_hssi_aibcr_tx ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/common/ct1_hssi_atoms.sv:2619: Analyzing module ( ct1_hssi_aibnd_rx ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/common/ct1_hssi_atoms.sv:2834: Analyzing module ( ct1_hssi_aibnd_tx ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/common/ct1_hssi_atoms.sv:3096: Analyzing module ( ct1_hssi_common_pcs_pma_interface ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/common/ct1_hssi_atoms.sv:3285: Analyzing module ( ct1_hssi_common_pld_pcs_interface ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/common/ct1_hssi_atoms.sv:3442: Analyzing module ( ct1_hssi_cr2_adapt_sequencer ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/common/ct1_hssi_atoms.sv:3477: Analyzing module ( ct1_hssi_cr2_bti_clk_dec ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/common/ct1_hssi_atoms.sv:3515: Analyzing module ( ct1_hssi_cr2_cmu_fpll ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/common/ct1_hssi_atoms.sv:3889: Analyzing module ( ct1_hssi_cr2_ehip_core ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/common/ct1_hssi_atoms.sv:4123: Analyzing module ( ct1_hssi_cr2_ehip_pcs_interface ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/common/ct1_hssi_atoms.sv:4233: Analyzing module ( ct1_hssi_cr2_pcie_gen_switch ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/common/ct1_hssi_atoms.sv:4269: Analyzing module ( ct1_hssi_cr2_phip2_core ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/common/ct1_hssi_atoms.sv:7045: Analyzing module ( ct1_hssi_cr2_pma_adaptation ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/common/ct1_hssi_atoms.sv:7273: Analyzing module ( ct1_hssi_cr2_pma_cdr_pll ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/common/ct1_hssi_atoms.sv:7511: Analyzing module ( ct1_hssi_cr2_pma_cgb_master ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/common/ct1_hssi_atoms.sv:7599: Analyzing module ( ct1_hssi_cr2_pma_lc_pll ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/common/ct1_hssi_atoms.sv:7785: Analyzing module ( ct1_hssi_cr2_pma_lc_refclk_select_mux ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/common/ct1_hssi_atoms.sv:7840: Analyzing module ( ct1_hssi_cr2_pma_rx_buf ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/common/ct1_hssi_atoms.sv:8008: Analyzing module ( ct1_hssi_cr2_pma_rx_deser ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/common/ct1_hssi_atoms.sv:8103: Analyzing module ( ct1_hssi_cr2_pma_rx_dfe ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/common/ct1_hssi_atoms.sv:8306: Analyzing module ( ct1_hssi_cr2_pma_rx_odi ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/common/ct1_hssi_atoms.sv:8376: Analyzing module ( ct1_hssi_cr2_pma_rx_sd ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/common/ct1_hssi_atoms.sv:8426: Analyzing module ( ct1_hssi_cr2_pma_tx_buf ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/common/ct1_hssi_atoms.sv:8608: Analyzing module ( ct1_hssi_cr2_pma_tx_cgb ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/common/ct1_hssi_atoms.sv:8716: Analyzing module ( ct1_hssi_cr2_pma_tx_ser ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/common/ct1_hssi_atoms.sv:8802: Analyzing module ( ct1_hssi_cr2_refclk_divider ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/common/ct1_hssi_atoms.sv:8866: Analyzing module ( ct1_hssi_cr2_reset_sequencer ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/common/ct1_hssi_atoms.sv:8903: Analyzing module ( ct1_hssi_cr2_tx_sequencer ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/common/ct1_hssi_atoms.sv:8940: Analyzing module ( ct1_hssi_cr2_txpath_chnsequencer ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/common/ct1_hssi_atoms.sv:8989: Analyzing module ( ct1_hssi_cr_pma_rx_buf ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/common/ct1_hssi_atoms.sv:9106: Analyzing module ( ct1_hssi_cr_pma_rx_deser ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/common/ct1_hssi_atoms.sv:9193: Analyzing module ( ct1_hssi_cr_pma_rx_dfe ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/common/ct1_hssi_atoms.sv:9307: Analyzing module ( ct1_hssi_cr_pma_tx_buf ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/common/ct1_hssi_atoms.sv:9490: Analyzing module ( ct1_hssi_cr_pma_tx_ser ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/common/ct1_hssi_atoms.sv:9561: Analyzing module ( ct1_hssi_cr_refclk_divider ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/common/ct1_hssi_atoms.sv:9625: Analyzing module ( ct1_hssi_fifo_rx_pcs ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/common/ct1_hssi_atoms.sv:9695: Analyzing module ( ct1_hssi_fifo_tx_pcs ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/common/ct1_hssi_atoms.sv:9747: Analyzing module ( ct1_hssi_gen3_rx_pcs ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/common/ct1_hssi_atoms.sv:9835: Analyzing module ( ct1_hssi_gen3_tx_pcs ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/common/ct1_hssi_atoms.sv:9885: Analyzing module ( ct1_hssi_krfec_rx_pcs ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/common/ct1_hssi_atoms.sv:9959: Analyzing module ( ct1_hssi_krfec_tx_pcs ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/common/ct1_hssi_atoms.sv:10013: Analyzing module ( ct1_hssi_pipe_gen1_2 ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/common/ct1_hssi_atoms.sv:10107: Analyzing module ( ct1_hssi_pipe_gen3 ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/common/ct1_hssi_atoms.sv:10221: Analyzing module ( ct1_hssi_pldadapt_rx ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/common/ct1_hssi_atoms.sv:10527: Analyzing module ( ct1_hssi_pldadapt_tx ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/common/ct1_hssi_atoms.sv:10807: Analyzing module ( ct1_hssi_pma_adaptation ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/common/ct1_hssi_atoms.sv:11002: Analyzing module ( ct1_hssi_pma_cdr_refclk_select_mux ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/common/ct1_hssi_atoms.sv:11058: Analyzing module ( ct1_hssi_pma_cgb_master ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/common/ct1_hssi_atoms.sv:11141: Analyzing module ( ct1_hssi_pma_channel_pll ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/common/ct1_hssi_atoms.sv:11342: Analyzing module ( ct1_hssi_pma_lc_refclk_select_mux ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/common/ct1_hssi_atoms.sv:11397: Analyzing module ( ct1_hssi_pma_rx_odi ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/common/ct1_hssi_atoms.sv:11473: Analyzing module ( ct1_hssi_pma_rx_sd ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/common/ct1_hssi_atoms.sv:11520: Analyzing module ( ct1_hssi_pma_tx_cgb ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/common/ct1_hssi_atoms.sv:11618: Analyzing module ( ct1_hssi_rx_pcs_pma_interface ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/common/ct1_hssi_atoms.sv:11724: Analyzing module ( ct1_hssi_rx_pld_pcs_interface ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/common/ct1_hssi_atoms.sv:11962: Analyzing module ( ct1_hssi_tx_pcs_pma_interface ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/common/ct1_hssi_atoms.sv:12078: Analyzing module ( ct1_hssi_tx_pld_pcs_interface ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/common/ct1_hssi_atoms.sv:12275: Analyzing module ( ct3_hssi_aibadapt_rx ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/common/ct1_hssi_atoms.sv:12530: Analyzing module ( ct3_hssi_aibadapt_tx ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/common/ct1_hssi_atoms.sv:12737: Analyzing module ( ct3_hssi_aibcr_rx ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/common/ct1_hssi_atoms.sv:12955: Analyzing module ( ct3_hssi_aibcr_tx ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/common/ct1_hssi_atoms.sv:13209: Analyzing module ( ct3_hssi_cr3_refclk_divider ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/common/ct1_hssi_atoms.sv:13251: Analyzing module ( ct3_hssi_ehip_core ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/common/ct1_hssi_atoms.sv:13464: Analyzing module ( ct3_hssi_ehip_lane ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/common/ct1_hssi_atoms.sv:13678: Analyzing module ( ct3_hssi_rsfec ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/common/ct1_hssi_atoms.sv:13862: Analyzing module ( ct3_hssi_rsfecrx_mux ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/common/ct1_hssi_atoms.sv:13915: Analyzing module ( ct3_hssi_xcvr_refclk_mux ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/common/ct1_hssi_atoms.sv:13961: Analyzing module ( ct3_hssi_xcvr ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/common/ct1_hssi_atoms.sv:14419: Analyzing module ( fourteennm_dib_io_wrp ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/common/ct1_hssi_atoms.sv:14675: Analyzing module ( fourteennm_dib_phy ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/common/ct1_hssi_atoms.sv:14773: Analyzing module ( fourteennm_dibss_aux ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/common/ct1_hssi_atoms.sv:14839: Analyzing module ( ct1_hssi_avmm1_if ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/common/ct1_hssi_atoms.sv:14963: Analyzing module ( ct1_hssi_avmm2_if ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/common/ct1_hssi_atoms.sv:15111: Analyzing module ( altera_s10_xcvr_reset_endpoint ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/common/ct1_hssi_atoms.sv:15122: Analyzing module ( altera_s10_xcvr_clkout_endpoint ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/common/ct1_hssi_atoms.sv:15134: Analyzing module ( ct1_xcvr_native ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/common/ct1_hssi_atoms.sv:17451: Analyzing module ( ct1_xcvr_native_rev_14nm5 ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/common/ct1_hssi_atoms.sv:19767: Analyzing module ( ct1_xcvr_channel_rev_14nm5 ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/common/ct1_hssi_atoms.sv:22401: Analyzing module ( ct2_xcvr_native ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/common/ct1_hssi_atoms.sv:24903: Analyzing module ( ct2_xcvr_channel_multi ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/common/ct1_hssi_atoms.sv:27738: Analyzing module ( ct2_xcvr_channel_cr2 ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/common/ct1_hssi_atoms.sv:30572: Analyzing module ( ct2_xcvr_channel_cr2e ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/common/ct1_hssi_atoms.sv:33407: Analyzing module ( ct2_xcvr_channel_cr2_revb ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/common/ct1_hssi_atoms.sv:36241: Analyzing module ( ct2_xcvr_channel_cr2e_revb ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/common/ct1_hssi_atoms.sv:39076: Analyzing module ( ct3_xcvr_native ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/common/ct1_hssi_atoms.sv:40706: Analyzing module ( ct3_xcvr_channel ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/common/ct1_hssi_atoms.sv:42356: Analyzing module ( ct1_xcvr_avmm1 ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/common/ct1_hssi_atoms.sv:42394: Analyzing module ( ct1_xcvr_avmm2 ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/common/ct1_hssi_atoms.sv:42482: Analyzing module ( ct1_xcvr_avmm_soft_logic ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/common/ct1_hssi_atoms.sv:42521: Analyzing module ( ct3_xcvr_avmm2_core_ip ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/common/ct1_hssi_atoms.sv:42576: Analyzing module ( ct3_xcvr_avmm1_soft_logic ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/common/ct1_hssi_atoms.sv:42616: Analyzing module ( ct3_xcvr_avmm_soft_logic_core ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/common/ct1_hssi_atoms.sv:42652: Analyzing module ( ct3_xcvr_avmm2_core_ip_rsfec ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/common/ct1_hssi_atoms.sv:42702: Analyzing module ( ct3_xcvr_avmm_soft_logic_core_rsfec ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/common/ct1_hssi_atoms.sv:42738: Analyzing module ( fourteennm_dibssm ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/common/ct1_hssi_atoms.sv:42754: Analyzing module ( ct1_atx_pll_pld_adapt ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/common/ct1_hssi_atoms.sv:42776: Analyzing module ( ct1_hssi_pma_cgb_master_pld_adapt ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/common/ct1_hssi_atoms.sv:42790: Analyzing module ( ct1_cmu_fpll_pld_adapt ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/common/ct1_hssi_atoms.sv:42843: Analyzing module ( ct1_hssi_pma_channel_pll_pld_adapt ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/common/ct1_hssi_atoms.sv:42864: Analyzing module ( ct1_cmu_fpll_refclk_select_pld_adapt ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/common/ct1_hssi_atoms.sv:42884: Analyzing module ( ct1_hssi_cr_refclk_divider_pld_adapt ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/common/ct1_hssi_atoms.sv:42901: Analyzing module ( ct1_hssi_generic_pld_adapt ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/common/ct1_hssi_atoms.sv:42920: Analyzing module ( ct1_hssi_pma_cdr_refclk_select_mux_pld_adapt ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/common/ct1_hssi_atoms.sv:42936: Analyzing module ( ct1_hssi_pma_lc_refclk_select_mux_pld_adapt ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/common/ct1_hssi_atoms.sv:42952: Analyzing module ( ct1_hssi_rsfec_pld_adapt ). [4]
+-I- FileParse - Analyzing source file "/home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/common/dffea.sv" .... [1]
+-W- ModuleRedef - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/common/dffea.sv:16: Redefinition of module 'dffea' - originally defined in /home/software/Altera/pro/20.3/quartus/eda/sim_lib/altera_primitives.v:244. [28]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/common/dffea.sv:16: Analyzing module ( dffea ). [4]
+-I- FileParse - Analyzing source file "/home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/common/dffe.sv" .... [1]
+-W- ModuleRedef - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/common/dffe.sv:16: Redefinition of module 'dffe' - originally defined in /home/software/Altera/pro/20.3/quartus/eda/sim_lib/altera_primitives.v:233. [28]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/common/dffe.sv:16: Analyzing module ( dffe ). [4]
+-I- FileParse - Analyzing source file "/home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/common/dff.sv" .... [1]
+-W- ModuleRedef - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/common/dff.sv:16: Redefinition of module 'dff' - originally defined in /home/software/Altera/pro/20.3/quartus/eda/sim_lib/altera_primitives.v:222. [28]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/common/dff.sv:16: Analyzing module ( dff ). [4]
+-I- FileParse - Analyzing source file "/home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/common/PRIM_DFFEAS.sv" .... [1]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/common/PRIM_DFFEAS.sv:17: Analyzing module ( PRIM_DFFEAS ). [4]
+-I- FileParse - Analyzing source file "/home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/common/synchronous_ram.sv" .... [1]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/common/synchronous_ram.sv:36: Analyzing module ( synchronous_ram ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/common/synchronous_ram.sv:210: Analyzing module ( synchronous_ram_sdp ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/common/synchronous_ram.sv:325: Analyzing module ( synchronous_ram_sdp_simple ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/common/synchronous_ram.sv:424: Analyzing module ( synchronous_ram_sdp_be ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/common/synchronous_ram.sv:557: Analyzing module ( synchronous_ram_sdp_mixed ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/common/synchronous_ram.sv:707: Analyzing module ( synchronous_ram_tdp ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/common/synchronous_ram.sv:902: Analyzing module ( synchronous_ram_tdp_simple ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/common/synchronous_ram.sv:1063: Analyzing module ( synchronous_ram_tdp_be ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/common/synchronous_ram.sv:1278: Analyzing module ( synchronous_ram_tdp_mixed ). [4]
+-I- FileParse - Analyzing source file "/home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/common/lcell.sv" .... [1]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/common/lcell.sv:15: Analyzing module ( lcell ). [4]
+-I- FileParse - Analyzing source file "/home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/common/ct1_hip_atoms.sv" .... [1]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/common/ct1_hip_atoms.sv:18: Analyzing module ( ct1_hssi_x16_pcie ). [4]
+-I- FileParse - Analyzing source file "/home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/common/dffeas.sv" .... [1]
+-W- ModuleRedef - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/common/dffeas.sv:15: Redefinition of module 'dffeas' - originally defined in /home/software/Altera/pro/20.3/quartus/eda/sim_lib/altera_primitives.v:266. [28]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/common/dffeas.sv:15: Analyzing module ( dffeas ). [4]
+-I- FileParse - Analyzing source file "/home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/common/ct1_hssi_atoms.sv" .... [1]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/common/ct1_hssi_atoms.sv:46: Analyzing module ( ct1_atx_pll ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/common/ct1_hssi_atoms.sv:213: Analyzing module ( ct1_cmu_fpll_refclk_select ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/common/ct1_hssi_atoms.sv:302: Analyzing module ( ct1_cmu_fpll ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/common/ct1_hssi_atoms.sv:606: Analyzing module ( ct1_hssi_10g_rx_pcs ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/common/ct1_hssi_atoms.sv:779: Analyzing module ( ct1_hssi_10g_tx_pcs ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/common/ct1_hssi_atoms.sv:952: Analyzing module ( ct1_hssi_8g_rx_pcs ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/common/ct1_hssi_atoms.sv:1189: Analyzing module ( ct1_hssi_8g_tx_pcs ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/common/ct1_hssi_atoms.sv:1352: Analyzing module ( ct1_hssi_adapt_rx ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/common/ct1_hssi_atoms.sv:1696: Analyzing module ( ct1_hssi_adapt_tx ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/common/ct1_hssi_atoms.sv:1964: Analyzing module ( ct1_hssi_aib_ssm ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/common/ct1_hssi_atoms.sv:2116: Analyzing module ( ct1_hssi_aibcr_rx ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/common/ct1_hssi_atoms.sv:2351: Analyzing module ( ct1_hssi_aibcr_tx ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/common/ct1_hssi_atoms.sv:2619: Analyzing module ( ct1_hssi_aibnd_rx ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/common/ct1_hssi_atoms.sv:2834: Analyzing module ( ct1_hssi_aibnd_tx ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/common/ct1_hssi_atoms.sv:3096: Analyzing module ( ct1_hssi_common_pcs_pma_interface ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/common/ct1_hssi_atoms.sv:3285: Analyzing module ( ct1_hssi_common_pld_pcs_interface ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/common/ct1_hssi_atoms.sv:3442: Analyzing module ( ct1_hssi_cr2_adapt_sequencer ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/common/ct1_hssi_atoms.sv:3477: Analyzing module ( ct1_hssi_cr2_bti_clk_dec ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/common/ct1_hssi_atoms.sv:3515: Analyzing module ( ct1_hssi_cr2_cmu_fpll ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/common/ct1_hssi_atoms.sv:3889: Analyzing module ( ct1_hssi_cr2_ehip_core ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/common/ct1_hssi_atoms.sv:4123: Analyzing module ( ct1_hssi_cr2_ehip_pcs_interface ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/common/ct1_hssi_atoms.sv:4233: Analyzing module ( ct1_hssi_cr2_pcie_gen_switch ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/common/ct1_hssi_atoms.sv:4269: Analyzing module ( ct1_hssi_cr2_phip2_core ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/common/ct1_hssi_atoms.sv:7045: Analyzing module ( ct1_hssi_cr2_pma_adaptation ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/common/ct1_hssi_atoms.sv:7273: Analyzing module ( ct1_hssi_cr2_pma_cdr_pll ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/common/ct1_hssi_atoms.sv:7511: Analyzing module ( ct1_hssi_cr2_pma_cgb_master ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/common/ct1_hssi_atoms.sv:7599: Analyzing module ( ct1_hssi_cr2_pma_lc_pll ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/common/ct1_hssi_atoms.sv:7785: Analyzing module ( ct1_hssi_cr2_pma_lc_refclk_select_mux ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/common/ct1_hssi_atoms.sv:7840: Analyzing module ( ct1_hssi_cr2_pma_rx_buf ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/common/ct1_hssi_atoms.sv:8008: Analyzing module ( ct1_hssi_cr2_pma_rx_deser ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/common/ct1_hssi_atoms.sv:8103: Analyzing module ( ct1_hssi_cr2_pma_rx_dfe ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/common/ct1_hssi_atoms.sv:8306: Analyzing module ( ct1_hssi_cr2_pma_rx_odi ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/common/ct1_hssi_atoms.sv:8376: Analyzing module ( ct1_hssi_cr2_pma_rx_sd ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/common/ct1_hssi_atoms.sv:8426: Analyzing module ( ct1_hssi_cr2_pma_tx_buf ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/common/ct1_hssi_atoms.sv:8608: Analyzing module ( ct1_hssi_cr2_pma_tx_cgb ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/common/ct1_hssi_atoms.sv:8716: Analyzing module ( ct1_hssi_cr2_pma_tx_ser ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/common/ct1_hssi_atoms.sv:8802: Analyzing module ( ct1_hssi_cr2_refclk_divider ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/common/ct1_hssi_atoms.sv:8866: Analyzing module ( ct1_hssi_cr2_reset_sequencer ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/common/ct1_hssi_atoms.sv:8903: Analyzing module ( ct1_hssi_cr2_tx_sequencer ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/common/ct1_hssi_atoms.sv:8940: Analyzing module ( ct1_hssi_cr2_txpath_chnsequencer ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/common/ct1_hssi_atoms.sv:8989: Analyzing module ( ct1_hssi_cr_pma_rx_buf ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/common/ct1_hssi_atoms.sv:9106: Analyzing module ( ct1_hssi_cr_pma_rx_deser ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/common/ct1_hssi_atoms.sv:9193: Analyzing module ( ct1_hssi_cr_pma_rx_dfe ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/common/ct1_hssi_atoms.sv:9307: Analyzing module ( ct1_hssi_cr_pma_tx_buf ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/common/ct1_hssi_atoms.sv:9490: Analyzing module ( ct1_hssi_cr_pma_tx_ser ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/common/ct1_hssi_atoms.sv:9561: Analyzing module ( ct1_hssi_cr_refclk_divider ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/common/ct1_hssi_atoms.sv:9625: Analyzing module ( ct1_hssi_fifo_rx_pcs ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/common/ct1_hssi_atoms.sv:9695: Analyzing module ( ct1_hssi_fifo_tx_pcs ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/common/ct1_hssi_atoms.sv:9747: Analyzing module ( ct1_hssi_gen3_rx_pcs ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/common/ct1_hssi_atoms.sv:9835: Analyzing module ( ct1_hssi_gen3_tx_pcs ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/common/ct1_hssi_atoms.sv:9885: Analyzing module ( ct1_hssi_krfec_rx_pcs ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/common/ct1_hssi_atoms.sv:9959: Analyzing module ( ct1_hssi_krfec_tx_pcs ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/common/ct1_hssi_atoms.sv:10013: Analyzing module ( ct1_hssi_pipe_gen1_2 ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/common/ct1_hssi_atoms.sv:10107: Analyzing module ( ct1_hssi_pipe_gen3 ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/common/ct1_hssi_atoms.sv:10221: Analyzing module ( ct1_hssi_pldadapt_rx ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/common/ct1_hssi_atoms.sv:10527: Analyzing module ( ct1_hssi_pldadapt_tx ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/common/ct1_hssi_atoms.sv:10807: Analyzing module ( ct1_hssi_pma_adaptation ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/common/ct1_hssi_atoms.sv:11002: Analyzing module ( ct1_hssi_pma_cdr_refclk_select_mux ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/common/ct1_hssi_atoms.sv:11058: Analyzing module ( ct1_hssi_pma_cgb_master ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/common/ct1_hssi_atoms.sv:11141: Analyzing module ( ct1_hssi_pma_channel_pll ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/common/ct1_hssi_atoms.sv:11342: Analyzing module ( ct1_hssi_pma_lc_refclk_select_mux ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/common/ct1_hssi_atoms.sv:11397: Analyzing module ( ct1_hssi_pma_rx_odi ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/common/ct1_hssi_atoms.sv:11473: Analyzing module ( ct1_hssi_pma_rx_sd ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/common/ct1_hssi_atoms.sv:11520: Analyzing module ( ct1_hssi_pma_tx_cgb ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/common/ct1_hssi_atoms.sv:11618: Analyzing module ( ct1_hssi_rx_pcs_pma_interface ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/common/ct1_hssi_atoms.sv:11724: Analyzing module ( ct1_hssi_rx_pld_pcs_interface ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/common/ct1_hssi_atoms.sv:11962: Analyzing module ( ct1_hssi_tx_pcs_pma_interface ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/common/ct1_hssi_atoms.sv:12078: Analyzing module ( ct1_hssi_tx_pld_pcs_interface ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/common/ct1_hssi_atoms.sv:12275: Analyzing module ( ct3_hssi_aibadapt_rx ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/common/ct1_hssi_atoms.sv:12530: Analyzing module ( ct3_hssi_aibadapt_tx ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/common/ct1_hssi_atoms.sv:12737: Analyzing module ( ct3_hssi_aibcr_rx ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/common/ct1_hssi_atoms.sv:12955: Analyzing module ( ct3_hssi_aibcr_tx ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/common/ct1_hssi_atoms.sv:13209: Analyzing module ( ct3_hssi_cr3_refclk_divider ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/common/ct1_hssi_atoms.sv:13251: Analyzing module ( ct3_hssi_ehip_core ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/common/ct1_hssi_atoms.sv:13464: Analyzing module ( ct3_hssi_ehip_lane ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/common/ct1_hssi_atoms.sv:13678: Analyzing module ( ct3_hssi_rsfec ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/common/ct1_hssi_atoms.sv:13862: Analyzing module ( ct3_hssi_rsfecrx_mux ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/common/ct1_hssi_atoms.sv:13915: Analyzing module ( ct3_hssi_xcvr_refclk_mux ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/common/ct1_hssi_atoms.sv:13961: Analyzing module ( ct3_hssi_xcvr ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/common/ct1_hssi_atoms.sv:14419: Analyzing module ( fourteennm_dib_io_wrp ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/common/ct1_hssi_atoms.sv:14675: Analyzing module ( fourteennm_dib_phy ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/common/ct1_hssi_atoms.sv:14773: Analyzing module ( fourteennm_dibss_aux ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/common/ct1_hssi_atoms.sv:14839: Analyzing module ( ct1_hssi_avmm1_if ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/common/ct1_hssi_atoms.sv:14963: Analyzing module ( ct1_hssi_avmm2_if ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/common/ct1_hssi_atoms.sv:15111: Analyzing module ( altera_s10_xcvr_reset_endpoint ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/common/ct1_hssi_atoms.sv:15122: Analyzing module ( altera_s10_xcvr_clkout_endpoint ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/common/ct1_hssi_atoms.sv:15134: Analyzing module ( ct1_xcvr_native ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/common/ct1_hssi_atoms.sv:17451: Analyzing module ( ct1_xcvr_native_rev_14nm5 ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/common/ct1_hssi_atoms.sv:19767: Analyzing module ( ct1_xcvr_channel_rev_14nm5 ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/common/ct1_hssi_atoms.sv:22401: Analyzing module ( ct2_xcvr_native ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/common/ct1_hssi_atoms.sv:24903: Analyzing module ( ct2_xcvr_channel_multi ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/common/ct1_hssi_atoms.sv:27738: Analyzing module ( ct2_xcvr_channel_cr2 ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/common/ct1_hssi_atoms.sv:30572: Analyzing module ( ct2_xcvr_channel_cr2e ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/common/ct1_hssi_atoms.sv:33407: Analyzing module ( ct2_xcvr_channel_cr2_revb ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/common/ct1_hssi_atoms.sv:36241: Analyzing module ( ct2_xcvr_channel_cr2e_revb ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/common/ct1_hssi_atoms.sv:39076: Analyzing module ( ct3_xcvr_native ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/common/ct1_hssi_atoms.sv:40706: Analyzing module ( ct3_xcvr_channel ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/common/ct1_hssi_atoms.sv:42356: Analyzing module ( ct1_xcvr_avmm1 ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/common/ct1_hssi_atoms.sv:42394: Analyzing module ( ct1_xcvr_avmm2 ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/common/ct1_hssi_atoms.sv:42482: Analyzing module ( ct1_xcvr_avmm_soft_logic ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/common/ct1_hssi_atoms.sv:42521: Analyzing module ( ct3_xcvr_avmm2_core_ip ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/common/ct1_hssi_atoms.sv:42576: Analyzing module ( ct3_xcvr_avmm1_soft_logic ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/common/ct1_hssi_atoms.sv:42616: Analyzing module ( ct3_xcvr_avmm_soft_logic_core ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/common/ct1_hssi_atoms.sv:42652: Analyzing module ( ct3_xcvr_avmm2_core_ip_rsfec ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/common/ct1_hssi_atoms.sv:42702: Analyzing module ( ct3_xcvr_avmm_soft_logic_core_rsfec ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/common/ct1_hssi_atoms.sv:42738: Analyzing module ( fourteennm_dibssm ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/common/ct1_hssi_atoms.sv:42754: Analyzing module ( ct1_atx_pll_pld_adapt ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/common/ct1_hssi_atoms.sv:42776: Analyzing module ( ct1_hssi_pma_cgb_master_pld_adapt ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/common/ct1_hssi_atoms.sv:42790: Analyzing module ( ct1_cmu_fpll_pld_adapt ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/common/ct1_hssi_atoms.sv:42843: Analyzing module ( ct1_hssi_pma_channel_pll_pld_adapt ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/common/ct1_hssi_atoms.sv:42864: Analyzing module ( ct1_cmu_fpll_refclk_select_pld_adapt ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/common/ct1_hssi_atoms.sv:42884: Analyzing module ( ct1_hssi_cr_refclk_divider_pld_adapt ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/common/ct1_hssi_atoms.sv:42901: Analyzing module ( ct1_hssi_generic_pld_adapt ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/common/ct1_hssi_atoms.sv:42920: Analyzing module ( ct1_hssi_pma_cdr_refclk_select_mux_pld_adapt ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/common/ct1_hssi_atoms.sv:42936: Analyzing module ( ct1_hssi_pma_lc_refclk_select_mux_pld_adapt ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/common/ct1_hssi_atoms.sv:42952: Analyzing module ( ct1_hssi_rsfec_pld_adapt ). [4]
+-I- FileParse - Analyzing source file "/home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/common/dffea.sv" .... [1]
+-W- ModuleRedef - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/common/dffea.sv:16: Redefinition of module 'dffea' - originally defined in /home/software/Altera/pro/20.3/quartus/eda/sim_lib/altera_primitives.v:244. [28]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/common/dffea.sv:16: Analyzing module ( dffea ). [4]
+-I- FileParse - Analyzing source file "/home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/common/dffe.sv" .... [1]
+-W- ModuleRedef - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/common/dffe.sv:16: Redefinition of module 'dffe' - originally defined in /home/software/Altera/pro/20.3/quartus/eda/sim_lib/altera_primitives.v:233. [28]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/common/dffe.sv:16: Analyzing module ( dffe ). [4]
+-I- FileParse - Analyzing source file "/home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/common/dff.sv" .... [1]
+-W- ModuleRedef - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/common/dff.sv:16: Redefinition of module 'dff' - originally defined in /home/software/Altera/pro/20.3/quartus/eda/sim_lib/altera_primitives.v:222. [28]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/common/dff.sv:16: Analyzing module ( dff ). [4]
+-I- FileParse - Analyzing source file "/home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/common/PRIM_DFFEAS.sv" .... [1]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/common/PRIM_DFFEAS.sv:17: Analyzing module ( PRIM_DFFEAS ). [4]
+-I- FileParse - Analyzing source file "/home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/common/synchronous_ram.sv" .... [1]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/common/synchronous_ram.sv:36: Analyzing module ( synchronous_ram ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/common/synchronous_ram.sv:210: Analyzing module ( synchronous_ram_sdp ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/common/synchronous_ram.sv:325: Analyzing module ( synchronous_ram_sdp_simple ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/common/synchronous_ram.sv:424: Analyzing module ( synchronous_ram_sdp_be ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/common/synchronous_ram.sv:557: Analyzing module ( synchronous_ram_sdp_mixed ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/common/synchronous_ram.sv:707: Analyzing module ( synchronous_ram_tdp ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/common/synchronous_ram.sv:902: Analyzing module ( synchronous_ram_tdp_simple ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/common/synchronous_ram.sv:1063: Analyzing module ( synchronous_ram_tdp_be ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/common/synchronous_ram.sv:1278: Analyzing module ( synchronous_ram_tdp_mixed ). [4]
+::altera::quartus::read_ver_dev -- stratix10 -- fourteennm
+-I- FileParse - Analyzing source file "/home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/fourteennm/fourteennm_mlab_cell.v" .... [1]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/fourteennm/fourteennm_mlab_cell.v:22: Analyzing module ( fourteennm_mlab_cell_verification ). [4]
+-I- FileParse - Analyzing source file "/home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/fourteennm/fourteennm_ram_block_encrypt.v" .... [1]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/fourteennm/fourteennm_ram_block_encrypt.v:22: Analyzing module ( fourteennm_ram_block_encrypt ). [4]
+-I- FileParse - Analyzing source file "/home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/fourteennm/fourteennm_mac_encrypt.v" .... [1]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/fourteennm/fourteennm_mac_encrypt.v:25: Analyzing module ( fourteennm_mac_encrypted ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/fourteennm/fourteennm_mac_encrypt.v:889: Analyzing module ( nadder_mac_reg ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/fourteennm/fourteennm_mac_encrypt.v:937: Analyzing module ( nadder_mac_data_reg_bank ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/fourteennm/fourteennm_mac_encrypt.v:1035: Analyzing module ( nadder_mac_preadder_coef ). [4]
+-I- FileParse - Analyzing source file "/home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/fourteennm/fourteennm_mlab_cell.v" .... [1]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/fourteennm/fourteennm_mlab_cell.v:22: Analyzing module ( fourteennm_mlab_cell_verification ). [4]
+-I- FileParse - Analyzing source file "/home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/fourteennm/fourteennm_ram_block_encrypt.v" .... [1]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/fourteennm/fourteennm_ram_block_encrypt.v:22: Analyzing module ( fourteennm_ram_block_encrypt ). [4]
+-I- FileParse - Analyzing source file "/home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/fourteennm/fourteennm_mac_encrypt.v" .... [1]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/fourteennm/fourteennm_mac_encrypt.v:25: Analyzing module ( fourteennm_mac_encrypted ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/fourteennm/fourteennm_mac_encrypt.v:889: Analyzing module ( nadder_mac_reg ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/fourteennm/fourteennm_mac_encrypt.v:937: Analyzing module ( nadder_mac_data_reg_bank ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/fourteennm/fourteennm_mac_encrypt.v:1035: Analyzing module ( nadder_mac_preadder_coef ). [4]
+-I- FileParse - Analyzing source file "/home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/fourteennm/fourteennm_true_dual_port_ram.sv" .... [1]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/fourteennm/fourteennm_true_dual_port_ram.sv:23: Analyzing module ( fourteennm_true_dual_port_ram ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/fourteennm/fourteennm_true_dual_port_ram.sv:1067: Analyzing module ( fourteennm_true_dual_port_ram_core_simple_be ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/fourteennm/fourteennm_true_dual_port_ram.sv:1245: Analyzing module ( fourteennm_true_dual_port_ram_core_wider_A ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/fourteennm/fourteennm_true_dual_port_ram.sv:1366: Analyzing module ( fourteennm_true_dual_port_ram_core_wider_B ). [4]
+-I- FileParse - Analyzing source file "/home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/fourteennm/fourteennm_atoms_encrypt.sv" .... [1]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/fourteennm/fourteennm_atoms_encrypt.sv:17: Analyzing module ( fourteennm_logic_module_base ). [4]
+-I- FileParse - Analyzing source file "/home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/fourteennm/fourteennm_single_port_ram.sv" .... [1]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/fourteennm/fourteennm_single_port_ram.sv:19: Analyzing module ( fourteennm_single_port_ram ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/fourteennm/fourteennm_single_port_ram.sv:349: Analyzing module ( fourteennm_single_port_ram_core_simple_be ). [4]
+-I- FileParse - Analyzing source file "/home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/fourteennm/fourteennm_mlab_block_sdp.sv" .... [1]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/fourteennm/fourteennm_mlab_block_sdp.sv:19: Analyzing module ( fourteennm_dual_port_mlab_new ). [4]
+-I- FileParse - Analyzing source file "/home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/fourteennm/fourteennm_simple_dual_port_ram.sv" .... [1]
+-W- MacroRedef - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/fourteennm/fourteennm_simple_dual_port_ram.sv:19: Redefinition of macro ( DONT_USE_X_FOR_READ_WRITE_CONFLICT ), previous definition in /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/fourteennm/fourteennm_true_dual_port_ram.sv line 20. [26]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/fourteennm/fourteennm_simple_dual_port_ram.sv:22: Analyzing module ( fourteennm_simple_dual_port_ram ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/fourteennm/fourteennm_simple_dual_port_ram.sv:748: Analyzing module ( fourteennm_simple_dual_port_ram_core_be ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/fourteennm/fourteennm_simple_dual_port_ram.sv:860: Analyzing module ( fourteennm_simple_dual_port_ram_core_wider_write ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/fourteennm/fourteennm_simple_dual_port_ram.sv:956: Analyzing module ( fourteennm_simple_dual_port_ram_core_wider_read ). [4]
+-I- FileParse - Analyzing source file "/home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/fourteennm/fourteennm_forwarding_logic.sv" .... [1]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/fourteennm/fourteennm_forwarding_logic.sv:17: Analyzing module ( fourteennm_forwarding_logic ). [4]
+-I- FileParse - Analyzing source file "/home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/fourteennm/fourteennm_dual_port_rom.sv" .... [1]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/fourteennm/fourteennm_dual_port_rom.sv:19: Analyzing module ( fourteennm_dual_port_rom ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/fourteennm/fourteennm_dual_port_rom.sv:488: Analyzing module ( fourteennm_dual_port_rom_core_simple_be ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/fourteennm/fourteennm_dual_port_rom.sv:561: Analyzing module ( fourteennm_dual_port_rom_core_wider_A ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/fourteennm/fourteennm_dual_port_rom.sv:645: Analyzing module ( fourteennm_dual_port_rom_core_wider_B ). [4]
+-I- FileParse - Analyzing source file "/home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/fourteennm/fourteennm_atoms.sv" .... [1]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/fourteennm/fourteennm_atoms.sv:21: Analyzing primitive ( FOURTEENNM_PRIM_DFFE ). [8]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/fourteennm/fourteennm_atoms.sv:94: Analyzing primitive ( FOURTEENNM_PRIM_DFFEAS ). [8]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/fourteennm/fourteennm_atoms.sv:132: Analyzing primitive ( FOURTEENNM_PRIM_DFFEAS_HIGH ). [8]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/fourteennm/fourteennm_atoms.sv:170: Analyzing module ( fourteennm_dffe ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/fourteennm/fourteennm_atoms.sv:202: Analyzing module ( fourteennm_mux21 ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/fourteennm/fourteennm_atoms.sv:223: Analyzing module ( fourteennm_mux41 ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/fourteennm/fourteennm_atoms.sv:255: Analyzing module ( fourteennm_and1 ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/fourteennm/fourteennm_atoms.sv:264: Analyzing module ( fourteennm_and16 ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/fourteennm/fourteennm_atoms.sv:290: Analyzing module ( fourteennm_bmux21 ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/fourteennm/fourteennm_atoms.sv:301: Analyzing module ( fourteennm_b17mux21 ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/fourteennm/fourteennm_atoms.sv:312: Analyzing module ( fourteennm_nmux21 ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/fourteennm/fourteennm_atoms.sv:322: Analyzing module ( fourteennm_b5mux21 ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/fourteennm/fourteennm_atoms.sv:343: Analyzing module ( fourteennm_ff ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/fourteennm/fourteennm_atoms.sv:392: Analyzing module ( fourteennm_lcell_comb ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/fourteennm/fourteennm_atoms.sv:526: Analyzing module ( fourteennm_io_ibuf ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/fourteennm/fourteennm_atoms.sv:618: Analyzing module ( fourteennm_io_obuf ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/fourteennm/fourteennm_atoms.sv:752: Analyzing module ( fourteennm_routing_wire ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/fourteennm/fourteennm_atoms.sv:779: Analyzing module ( fourteennm_ram_block ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/fourteennm/fourteennm_atoms.sv:1041: Analyzing module ( fourteennm_mlab_cell ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/fourteennm/fourteennm_atoms.sv:1135: Analyzing module ( fourteennm_pseudo_diff_out ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/fourteennm/fourteennm_atoms.sv:1189: Analyzing module ( fourteennm_mac ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/fourteennm/fourteennm_atoms.sv:1432: Analyzing module ( fourteennm_fp_mac ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/fourteennm/fourteennm_atoms.sv:1515: Analyzing module ( fourteennm_iopll ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/fourteennm/fourteennm_atoms.sv:1922: Analyzing module ( fourteennm_io_12_lane ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/fourteennm/fourteennm_atoms.sv:2163: Analyzing module ( fourteennm_io_serdes_dpa ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/fourteennm/fourteennm_atoms.sv:2212: Analyzing module ( fourteennm_refclk_input ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/fourteennm/fourteennm_atoms.sv:2259: Analyzing module ( fourteennm_lvds_clock_tree ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/fourteennm/fourteennm_atoms.sv:2277: Analyzing module ( fourteennm_ddio_in ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/fourteennm/fourteennm_atoms.sv:2301: Analyzing module ( fourteennm_ddio_out ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/fourteennm/fourteennm_atoms.sv:2328: Analyzing module ( fourteennm_iossm ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/fourteennm/fourteennm_atoms.sv:2412: Analyzing module ( fourteennm_tile_ctrl ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/fourteennm/fourteennm_atoms.sv:2835: Analyzing module ( fourteennm_clkena ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/fourteennm/fourteennm_atoms.sv:2861: Analyzing module ( fourteennm_termination_logic ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/fourteennm/fourteennm_atoms.sv:2883: Analyzing module ( fourteennm_termination ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/fourteennm/fourteennm_atoms.sv:2947: Analyzing module ( fourteennm_hbmc ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/fourteennm/fourteennm_atoms.sv:14561: Analyzing module ( fourteennm_uib_io_phy ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/fourteennm/fourteennm_atoms.sv:34470: Analyzing module ( fourteennm_uib_refclk ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/fourteennm/fourteennm_atoms.sv:34497: Analyzing module ( fourteennm_uibssm ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/fourteennm/fourteennm_atoms.sv:34785: Analyzing module ( fourteennm_ufi_uib ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/fourteennm/fourteennm_atoms.sv:41373: Analyzing module ( fourteennm_ufind4h_uib ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/fourteennm/fourteennm_atoms.sv:45600: Analyzing module ( fourteennm_lsm_bf ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/fourteennm/fourteennm_atoms.sv:45634: Analyzing module ( fourteennm_sdm_axi_fpga2sdm ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/fourteennm/fourteennm_atoms.sv:45692: Analyzing module ( fourteennm_sdm_axi_sdm2fpga ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/fourteennm/fourteennm_atoms.sv:45750: Analyzing module ( fourteennm_sdm_dftblock ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/fourteennm/fourteennm_atoms.sv:45793: Analyzing module ( fourteennm_sdm_gpio_in ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/fourteennm/fourteennm_atoms.sv:45809: Analyzing module ( fourteennm_sdm_gpio_intr ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/fourteennm/fourteennm_atoms.sv:45825: Analyzing module ( fourteennm_sdm_gpio_out ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/fourteennm/fourteennm_atoms.sv:45839: Analyzing module ( fourteennm_sdm_jtag_ela ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/fourteennm/fourteennm_atoms.sv:45861: Analyzing module ( fourteennm_sdm_jtag_mon ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/fourteennm/fourteennm_atoms.sv:45875: Analyzing module ( fourteennm_sdm_jtagblock ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/fourteennm/fourteennm_atoms.sv:45892: Analyzing module ( fourteennm_sdm_key_in ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/fourteennm/fourteennm_atoms.sv:45908: Analyzing module ( fourteennm_sdm_loanio ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/fourteennm/fourteennm_atoms.sv:45923: Analyzing module ( fourteennm_sdm_nsp ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/fourteennm/fourteennm_atoms.sv:45940: Analyzing module ( fourteennm_sdm_oscillator ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/fourteennm/fourteennm_atoms.sv:45953: Analyzing module ( fourteennm_sdm_por ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/fourteennm/fourteennm_atoms.sv:45969: Analyzing module ( fourteennm_sdm_tamper ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/fourteennm/fourteennm_atoms.sv:45983: Analyzing module ( fourteennm_sdm_vsblock ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/fourteennm/fourteennm_atoms.sv:46002: Analyzing module ( fourteennm_clk_divider ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/fourteennm/fourteennm_atoms.sv:46016: Analyzing module ( fourteennm_logic_module ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/fourteennm/fourteennm_atoms.sv:46069: Analyzing module ( fourteennm_esram ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/fourteennm/fourteennm_atoms.sv:47618: Analyzing module ( fourteennm_sip_io_phase_alignment ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/fourteennm/fourteennm_atoms.sv:47878: Analyzing module ( fourteennm_ufi_esram ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/fourteennm/fourteennm_atoms.sv:49573: Analyzing module ( fourteennm_lsm_avmm_master ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/fourteennm/fourteennm_atoms.sv:49594: Analyzing module ( fourteennm_lsm_avmm_slave ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/fourteennm/fourteennm_atoms.sv:49615: Analyzing module ( fourteennm_lsm_gpio_in ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/fourteennm/fourteennm_atoms.sv:49631: Analyzing module ( fourteennm_lsm_gpio_intr ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/fourteennm/fourteennm_atoms.sv:49647: Analyzing module ( fourteennm_lsm_gpio_out ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/fourteennm/fourteennm_atoms.sv:49662: Analyzing module ( fourteennm_lsm_soft_logic_reset ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/fourteennm/fourteennm_atoms.sv:49675: Analyzing module ( fourteennm_sdm_mbox_int ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/fourteennm/fourteennm_atoms.sv:49687: Analyzing module ( fourteennm_sdm_fpga_core_rst ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/fourteennm/fourteennm_atoms.sv:49699: Analyzing module ( fourteennm_sdm_gpio_intr_out ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/fourteennm/fourteennm_atoms.sv:49711: Analyzing module ( fourteennm_sdm_pwr_alert ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/fourteennm/fourteennm_atoms.sv:49722: Analyzing module ( fourteennm_cpa ). [4]
+-I- FileParse - Analyzing source file "/home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/fourteennm/fourteennm_simple_quad_port_ram.sv" .... [1]
+-W- MacroRedef - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/fourteennm/fourteennm_simple_quad_port_ram.sv:20: Redefinition of macro ( DONT_USE_X_FOR_READ_WRITE_CONFLICT ), previous definition in /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/fourteennm/fourteennm_simple_dual_port_ram.sv line 19. [26]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/fourteennm/fourteennm_simple_quad_port_ram.sv:23: Analyzing module ( fourteennm_simple_quad_port_ram ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/fourteennm/fourteennm_simple_quad_port_ram.sv:1120: Analyzing module ( fourteennm_simple_quad_port_ram_core_simple_be ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/fourteennm/fourteennm_simple_quad_port_ram.sv:1285: Analyzing module ( fourteennm_simple_quad_port_ram_core_wider_A ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/fourteennm/fourteennm_simple_quad_port_ram.sv:1412: Analyzing module ( fourteennm_simple_quad_port_ram_core_wider_B ). [4]
+-I- FileParse - Analyzing source file "/home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/fourteennm/fourteennm_true_dual_port_ram.sv" .... [1]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/fourteennm/fourteennm_true_dual_port_ram.sv:23: Analyzing module ( fourteennm_true_dual_port_ram ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/fourteennm/fourteennm_true_dual_port_ram.sv:1067: Analyzing module ( fourteennm_true_dual_port_ram_core_simple_be ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/fourteennm/fourteennm_true_dual_port_ram.sv:1245: Analyzing module ( fourteennm_true_dual_port_ram_core_wider_A ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/fourteennm/fourteennm_true_dual_port_ram.sv:1366: Analyzing module ( fourteennm_true_dual_port_ram_core_wider_B ). [4]
+-I- FileParse - Analyzing source file "/home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/fourteennm/fourteennm_atoms_encrypt.sv" .... [1]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/fourteennm/fourteennm_atoms_encrypt.sv:17: Analyzing module ( fourteennm_logic_module_base ). [4]
+-I- FileParse - Analyzing source file "/home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/fourteennm/fourteennm_single_port_ram.sv" .... [1]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/fourteennm/fourteennm_single_port_ram.sv:19: Analyzing module ( fourteennm_single_port_ram ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/fourteennm/fourteennm_single_port_ram.sv:349: Analyzing module ( fourteennm_single_port_ram_core_simple_be ). [4]
+-I- FileParse - Analyzing source file "/home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/fourteennm/fourteennm_mlab_block_sdp.sv" .... [1]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/fourteennm/fourteennm_mlab_block_sdp.sv:19: Analyzing module ( fourteennm_dual_port_mlab_new ). [4]
+-I- FileParse - Analyzing source file "/home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/fourteennm/fourteennm_simple_dual_port_ram.sv" .... [1]
+-W- MacroRedef - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/fourteennm/fourteennm_simple_dual_port_ram.sv:19: Redefinition of macro ( DONT_USE_X_FOR_READ_WRITE_CONFLICT ), previous definition in /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/fourteennm/fourteennm_true_dual_port_ram.sv line 20. [26]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/fourteennm/fourteennm_simple_dual_port_ram.sv:22: Analyzing module ( fourteennm_simple_dual_port_ram ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/fourteennm/fourteennm_simple_dual_port_ram.sv:748: Analyzing module ( fourteennm_simple_dual_port_ram_core_be ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/fourteennm/fourteennm_simple_dual_port_ram.sv:860: Analyzing module ( fourteennm_simple_dual_port_ram_core_wider_write ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/fourteennm/fourteennm_simple_dual_port_ram.sv:956: Analyzing module ( fourteennm_simple_dual_port_ram_core_wider_read ). [4]
+-I- FileParse - Analyzing source file "/home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/fourteennm/fourteennm_forwarding_logic.sv" .... [1]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/fourteennm/fourteennm_forwarding_logic.sv:17: Analyzing module ( fourteennm_forwarding_logic ). [4]
+-I- FileParse - Analyzing source file "/home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/fourteennm/fourteennm_dual_port_rom.sv" .... [1]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/fourteennm/fourteennm_dual_port_rom.sv:19: Analyzing module ( fourteennm_dual_port_rom ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/fourteennm/fourteennm_dual_port_rom.sv:488: Analyzing module ( fourteennm_dual_port_rom_core_simple_be ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/fourteennm/fourteennm_dual_port_rom.sv:561: Analyzing module ( fourteennm_dual_port_rom_core_wider_A ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/fourteennm/fourteennm_dual_port_rom.sv:645: Analyzing module ( fourteennm_dual_port_rom_core_wider_B ). [4]
+-I- FileParse - Analyzing source file "/home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/fourteennm/fourteennm_atoms.sv" .... [1]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/fourteennm/fourteennm_atoms.sv:21: Analyzing primitive ( FOURTEENNM_PRIM_DFFE ). [8]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/fourteennm/fourteennm_atoms.sv:94: Analyzing primitive ( FOURTEENNM_PRIM_DFFEAS ). [8]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/fourteennm/fourteennm_atoms.sv:132: Analyzing primitive ( FOURTEENNM_PRIM_DFFEAS_HIGH ). [8]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/fourteennm/fourteennm_atoms.sv:170: Analyzing module ( fourteennm_dffe ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/fourteennm/fourteennm_atoms.sv:202: Analyzing module ( fourteennm_mux21 ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/fourteennm/fourteennm_atoms.sv:223: Analyzing module ( fourteennm_mux41 ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/fourteennm/fourteennm_atoms.sv:255: Analyzing module ( fourteennm_and1 ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/fourteennm/fourteennm_atoms.sv:264: Analyzing module ( fourteennm_and16 ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/fourteennm/fourteennm_atoms.sv:290: Analyzing module ( fourteennm_bmux21 ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/fourteennm/fourteennm_atoms.sv:301: Analyzing module ( fourteennm_b17mux21 ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/fourteennm/fourteennm_atoms.sv:312: Analyzing module ( fourteennm_nmux21 ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/fourteennm/fourteennm_atoms.sv:322: Analyzing module ( fourteennm_b5mux21 ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/fourteennm/fourteennm_atoms.sv:343: Analyzing module ( fourteennm_ff ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/fourteennm/fourteennm_atoms.sv:392: Analyzing module ( fourteennm_lcell_comb ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/fourteennm/fourteennm_atoms.sv:526: Analyzing module ( fourteennm_io_ibuf ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/fourteennm/fourteennm_atoms.sv:618: Analyzing module ( fourteennm_io_obuf ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/fourteennm/fourteennm_atoms.sv:752: Analyzing module ( fourteennm_routing_wire ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/fourteennm/fourteennm_atoms.sv:779: Analyzing module ( fourteennm_ram_block ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/fourteennm/fourteennm_atoms.sv:1041: Analyzing module ( fourteennm_mlab_cell ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/fourteennm/fourteennm_atoms.sv:1135: Analyzing module ( fourteennm_pseudo_diff_out ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/fourteennm/fourteennm_atoms.sv:1189: Analyzing module ( fourteennm_mac ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/fourteennm/fourteennm_atoms.sv:1432: Analyzing module ( fourteennm_fp_mac ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/fourteennm/fourteennm_atoms.sv:1515: Analyzing module ( fourteennm_iopll ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/fourteennm/fourteennm_atoms.sv:1922: Analyzing module ( fourteennm_io_12_lane ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/fourteennm/fourteennm_atoms.sv:2163: Analyzing module ( fourteennm_io_serdes_dpa ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/fourteennm/fourteennm_atoms.sv:2212: Analyzing module ( fourteennm_refclk_input ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/fourteennm/fourteennm_atoms.sv:2259: Analyzing module ( fourteennm_lvds_clock_tree ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/fourteennm/fourteennm_atoms.sv:2277: Analyzing module ( fourteennm_ddio_in ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/fourteennm/fourteennm_atoms.sv:2301: Analyzing module ( fourteennm_ddio_out ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/fourteennm/fourteennm_atoms.sv:2328: Analyzing module ( fourteennm_iossm ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/fourteennm/fourteennm_atoms.sv:2412: Analyzing module ( fourteennm_tile_ctrl ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/fourteennm/fourteennm_atoms.sv:2835: Analyzing module ( fourteennm_clkena ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/fourteennm/fourteennm_atoms.sv:2861: Analyzing module ( fourteennm_termination_logic ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/fourteennm/fourteennm_atoms.sv:2883: Analyzing module ( fourteennm_termination ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/fourteennm/fourteennm_atoms.sv:2947: Analyzing module ( fourteennm_hbmc ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/fourteennm/fourteennm_atoms.sv:14561: Analyzing module ( fourteennm_uib_io_phy ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/fourteennm/fourteennm_atoms.sv:34470: Analyzing module ( fourteennm_uib_refclk ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/fourteennm/fourteennm_atoms.sv:34497: Analyzing module ( fourteennm_uibssm ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/fourteennm/fourteennm_atoms.sv:34785: Analyzing module ( fourteennm_ufi_uib ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/fourteennm/fourteennm_atoms.sv:41373: Analyzing module ( fourteennm_ufind4h_uib ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/fourteennm/fourteennm_atoms.sv:45600: Analyzing module ( fourteennm_lsm_bf ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/fourteennm/fourteennm_atoms.sv:45634: Analyzing module ( fourteennm_sdm_axi_fpga2sdm ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/fourteennm/fourteennm_atoms.sv:45692: Analyzing module ( fourteennm_sdm_axi_sdm2fpga ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/fourteennm/fourteennm_atoms.sv:45750: Analyzing module ( fourteennm_sdm_dftblock ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/fourteennm/fourteennm_atoms.sv:45793: Analyzing module ( fourteennm_sdm_gpio_in ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/fourteennm/fourteennm_atoms.sv:45809: Analyzing module ( fourteennm_sdm_gpio_intr ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/fourteennm/fourteennm_atoms.sv:45825: Analyzing module ( fourteennm_sdm_gpio_out ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/fourteennm/fourteennm_atoms.sv:45839: Analyzing module ( fourteennm_sdm_jtag_ela ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/fourteennm/fourteennm_atoms.sv:45861: Analyzing module ( fourteennm_sdm_jtag_mon ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/fourteennm/fourteennm_atoms.sv:45875: Analyzing module ( fourteennm_sdm_jtagblock ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/fourteennm/fourteennm_atoms.sv:45892: Analyzing module ( fourteennm_sdm_key_in ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/fourteennm/fourteennm_atoms.sv:45908: Analyzing module ( fourteennm_sdm_loanio ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/fourteennm/fourteennm_atoms.sv:45923: Analyzing module ( fourteennm_sdm_nsp ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/fourteennm/fourteennm_atoms.sv:45940: Analyzing module ( fourteennm_sdm_oscillator ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/fourteennm/fourteennm_atoms.sv:45953: Analyzing module ( fourteennm_sdm_por ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/fourteennm/fourteennm_atoms.sv:45969: Analyzing module ( fourteennm_sdm_tamper ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/fourteennm/fourteennm_atoms.sv:45983: Analyzing module ( fourteennm_sdm_vsblock ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/fourteennm/fourteennm_atoms.sv:46002: Analyzing module ( fourteennm_clk_divider ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/fourteennm/fourteennm_atoms.sv:46016: Analyzing module ( fourteennm_logic_module ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/fourteennm/fourteennm_atoms.sv:46069: Analyzing module ( fourteennm_esram ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/fourteennm/fourteennm_atoms.sv:47618: Analyzing module ( fourteennm_sip_io_phase_alignment ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/fourteennm/fourteennm_atoms.sv:47878: Analyzing module ( fourteennm_ufi_esram ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/fourteennm/fourteennm_atoms.sv:49573: Analyzing module ( fourteennm_lsm_avmm_master ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/fourteennm/fourteennm_atoms.sv:49594: Analyzing module ( fourteennm_lsm_avmm_slave ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/fourteennm/fourteennm_atoms.sv:49615: Analyzing module ( fourteennm_lsm_gpio_in ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/fourteennm/fourteennm_atoms.sv:49631: Analyzing module ( fourteennm_lsm_gpio_intr ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/fourteennm/fourteennm_atoms.sv:49647: Analyzing module ( fourteennm_lsm_gpio_out ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/fourteennm/fourteennm_atoms.sv:49662: Analyzing module ( fourteennm_lsm_soft_logic_reset ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/fourteennm/fourteennm_atoms.sv:49675: Analyzing module ( fourteennm_sdm_mbox_int ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/fourteennm/fourteennm_atoms.sv:49687: Analyzing module ( fourteennm_sdm_fpga_core_rst ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/fourteennm/fourteennm_atoms.sv:49699: Analyzing module ( fourteennm_sdm_gpio_intr_out ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/fourteennm/fourteennm_atoms.sv:49711: Analyzing module ( fourteennm_sdm_pwr_alert ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/fourteennm/fourteennm_atoms.sv:49722: Analyzing module ( fourteennm_cpa ). [4]
+-I- FileParse - Analyzing source file "/home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/fourteennm/fourteennm_simple_quad_port_ram.sv" .... [1]
+-W- MacroRedef - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/fourteennm/fourteennm_simple_quad_port_ram.sv:20: Redefinition of macro ( DONT_USE_X_FOR_READ_WRITE_CONFLICT ), previous definition in /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/fourteennm/fourteennm_simple_dual_port_ram.sv line 19. [26]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/fourteennm/fourteennm_simple_quad_port_ram.sv:23: Analyzing module ( fourteennm_simple_quad_port_ram ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/fourteennm/fourteennm_simple_quad_port_ram.sv:1120: Analyzing module ( fourteennm_simple_quad_port_ram_core_simple_be ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/fourteennm/fourteennm_simple_quad_port_ram.sv:1285: Analyzing module ( fourteennm_simple_quad_port_ram_core_wider_A ). [4]
+-I- AnalyzeModule - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/fourteennm/fourteennm_simple_quad_port_ram.sv:1412: Analyzing module ( fourteennm_simple_quad_port_ram_core_wider_B ). [4]
+-I- Loading 'QUARTUS PRO' settings defined in file /home/cve/distributions/unreleased_distributions/EC_Relation/latest/onespin360/onespin/etc/startup/ec_settings.tcl.
+-I- Based on user request the following pragmas are enabled for design 'golden':
+	pragma translate_off/on
+	pragma translate off/on
+	pragma synthesis_off/on
+	pragma synthesis off/on
+	synopsys translate_off/on
+	synopsys translate off/on
+	synopsys synthesis_off/on
+	synopsys synthesis off/on
+	synthesis translate_off/on
+	synthesis translate off/on
+	synthesis synthesis_off/on
+	synthesis synthesis off/on
+	onespin translate_off/on
+	onespin translate off/on
+	onespin synthesis_off/on
+	onespin synthesis off/on
+    Whitespace between the start of the comment and the meta is ignored.
+    E.g., "-- pragma translateoff" is treated like "--pragma translateoff".
+-I- Based on user request no pragmas are enabled for design 'revised'.
+-I- FileParse - Analyzing source file "/home/test_data/extern/testsuite/ec_feature_tests/feature_tests_synthesized/Quartus_Pro20.3/Quartus_Pro20.3/Stratix10/std/ram/mlab_mapping/rtl_syn/1_4/verification/elaborated/ramtest_e1.sv" .... [1]
+-I- AnalyzeModule - /home/test_data/extern/testsuite/ec_feature_tests/feature_tests_synthesized/Quartus_Pro20.3/Quartus_Pro20.3/Stratix10/std/ram/mlab_mapping/rtl_syn/1_4/verification/elaborated/ramtest_e1.sv:4: Analyzing module ( ramtest_e1 ). [4]
+-I- FileParse - Analyzing source file "/home/test_data/extern/testsuite/ec_feature_tests/feature_tests_synthesized/Quartus_Pro20.3/Quartus_Pro20.3/Stratix10/std/ram/mlab_mapping/rtl_syn/1_4/simulation/modelsim/synthesized/1_4.vo" .... [1]
+-I- AnalyzeModule - /home/test_data/extern/testsuite/ec_feature_tests/feature_tests_synthesized/Quartus_Pro20.3/Quartus_Pro20.3/Stratix10/std/ram/mlab_mapping/rtl_syn/1_4/simulation/modelsim/synthesized/1_4.vo:32: Analyzing module ( ramtest_e1 ). [4]
+-W- ModPrimRedef - /home/software/Altera/pro/20.3/quartus/eda/sim_lib/altera_primitives.v:153: Redefinition of module 'dlatch' in library 'altera', definition at /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/common/dlatch.v:18: used.
+-W- ModPrimRedef - /home/software/Altera/pro/20.3/quartus/eda/sim_lib/altera_primitives.v:172: Redefinition of module 'dlatchen' in library 'altera', definition at /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/common/dlatch.v:36: used.
+-W- ModPrimRedef - /home/software/Altera/pro/20.3/quartus/eda/sim_lib/altera_primitives.v:190: Redefinition of module 'prim_gdff' in library 'altera', definition at /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/common/prim_gdff.v:17: used.
+-W- ModPrimRedef - /home/software/Altera/pro/20.3/quartus/eda/sim_lib/altera_primitives.v:222: Redefinition of module 'dff' in library 'altera', definition at /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/common/dff.sv:16: used.
+-W- ModPrimRedef - /home/software/Altera/pro/20.3/quartus/eda/sim_lib/altera_primitives.v:233: Redefinition of module 'dffe' in library 'altera', definition at /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/common/dffe.sv:16: used.
+-W- ModPrimRedef - /home/software/Altera/pro/20.3/quartus/eda/sim_lib/altera_primitives.v:244: Redefinition of module 'dffea' in library 'altera', definition at /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/common/dffea.sv:16: used.
+-W- ModPrimRedef - /home/software/Altera/pro/20.3/quartus/eda/sim_lib/altera_primitives.v:266: Redefinition of module 'dffeas' in library 'altera', definition at /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/common/dffeas.sv:15: used.
+-W- SimSynMismatch - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/altera_lnsim.sv:1567: Initialization of non-wire register might be ignored by some synthesis tools. Use continuous assignment instead.
+-W- SimSynMismatch - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/altera_lnsim.sv:28728: Initialization of non-wire register might be ignored by some synthesis tools. Use continuous assignment instead.
+-I- Elaborating verilog portion...
+-W- UndrivenOutput - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/common/synchronous_ram.sv:147: output 'portbdataout' is undriven.
+-W- NonConstantResetValue - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/common/PRIM_DFF.v:26: signal 'q' is assigned a non-constant value at reset.
+
+Warning Statistics:
+-------------------
+    1   NonConstantResetValue     reset value non-constant
+    1   UndrivenOutput       undriven output
+    2   SimSynMismatch       simulation synthesis mismatch
+    7   ModPrimRedef         module or primitive redefinition
+-I- Elaboration of design golden succeeded.
+resource_usage_after_golden_elaboration
+-R- System - 19.00 sec total CPU time, 977 MByte used.
+-W- ModPrimRedef - /home/software/Altera/pro/20.3/quartus/eda/sim_lib/altera_primitives.v:153: Redefinition of module 'dlatch' in library 'altera', definition at /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/common/dlatch.v:18: used.
+-W- ModPrimRedef - /home/software/Altera/pro/20.3/quartus/eda/sim_lib/altera_primitives.v:172: Redefinition of module 'dlatchen' in library 'altera', definition at /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/common/dlatch.v:36: used.
+-W- ModPrimRedef - /home/software/Altera/pro/20.3/quartus/eda/sim_lib/altera_primitives.v:190: Redefinition of module 'prim_gdff' in library 'altera', definition at /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/common/prim_gdff.v:17: used.
+-W- ModPrimRedef - /home/software/Altera/pro/20.3/quartus/eda/sim_lib/altera_primitives.v:222: Redefinition of module 'dff' in library 'altera', definition at /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/common/dff.sv:16: used.
+-W- ModPrimRedef - /home/software/Altera/pro/20.3/quartus/eda/sim_lib/altera_primitives.v:233: Redefinition of module 'dffe' in library 'altera', definition at /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/common/dffe.sv:16: used.
+-W- ModPrimRedef - /home/software/Altera/pro/20.3/quartus/eda/sim_lib/altera_primitives.v:244: Redefinition of module 'dffea' in library 'altera', definition at /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/common/dffea.sv:16: used.
+-W- ModPrimRedef - /home/software/Altera/pro/20.3/quartus/eda/sim_lib/altera_primitives.v:266: Redefinition of module 'dffeas' in library 'altera', definition at /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/common/dffeas.sv:15: used.
+-W- SimSynMismatch - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/altera_lnsim.sv:1567: Initialization of non-wire register might be ignored by some synthesis tools. Use continuous assignment instead.
+-W- SimSynMismatch - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/altera_lnsim.sv:28728: Initialization of non-wire register might be ignored by some synthesis tools. Use continuous assignment instead.
+-I- Elaborating verilog portion...
+-W- NonConstantResetValue - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/common/PRIM_DFFEAS.sv:26: signal 'q' is assigned a non-constant value at reset.
+-W- NonFullySens - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/fourteennm/fourteennm_atoms.sv:477: process uses signals that are not contained in the event control of the always construct. Missing signal(s): 'cin' (/home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/fourteennm/fourteennm_atoms.sv:417:).
+-W- SuperfluousSens - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/fourteennm/fourteennm_atoms.sv:477: event control of always construct contains signals that are not used in the process. Superfluous signal(s): 'datag_in' 'datah_in'.
+-W- NetWithoutSink - /home/test_data/extern/testsuite/ec_feature_tests/feature_tests_synthesized/Quartus_Pro20.3/Quartus_Pro20.3/Stratix10/std/ram/mlab_mapping/rtl_syn/1_4/simulation/modelsim/synthesized/1_4.vo:46: net 'unknown' has no sink.
+-W- NetWithoutSink - /home/test_data/extern/testsuite/ec_feature_tests/feature_tests_synthesized/Quartus_Pro20.3/Quartus_Pro20.3/Stratix10/std/ram/mlab_mapping/rtl_syn/1_4/simulation/modelsim/synthesized/1_4.vo:55: net '\ram_array_rtl_0|auto_generated|lutrama0~PORTBDATAOUT1 ' has no sink.
+-W- NetWithoutSink - /home/test_data/extern/testsuite/ec_feature_tests/feature_tests_synthesized/Quartus_Pro20.3/Quartus_Pro20.3/Stratix10/std/ram/mlab_mapping/rtl_syn/1_4/simulation/modelsim/synthesized/1_4.vo:56: net '\ram_array_rtl_0|auto_generated|lutrama0~PORTBDATAOUT2 ' has no sink.
+-W- NetWithoutSink - /home/test_data/extern/testsuite/ec_feature_tests/feature_tests_synthesized/Quartus_Pro20.3/Quartus_Pro20.3/Stratix10/std/ram/mlab_mapping/rtl_syn/1_4/simulation/modelsim/synthesized/1_4.vo:57: net '\ram_array_rtl_0|auto_generated|lutrama0~PORTBDATAOUT3 ' has no sink.
+-W- NetWithoutSink - /home/test_data/extern/testsuite/ec_feature_tests/feature_tests_synthesized/Quartus_Pro20.3/Quartus_Pro20.3/Stratix10/std/ram/mlab_mapping/rtl_syn/1_4/simulation/modelsim/synthesized/1_4.vo:58: net '\ram_array_rtl_0|auto_generated|lutrama0~PORTBDATAOUT4 ' has no sink.
+-W- NetWithoutSink - /home/test_data/extern/testsuite/ec_feature_tests/feature_tests_synthesized/Quartus_Pro20.3/Quartus_Pro20.3/Stratix10/std/ram/mlab_mapping/rtl_syn/1_4/simulation/modelsim/synthesized/1_4.vo:59: net '\ram_array_rtl_0|auto_generated|lutrama0~PORTBDATAOUT5 ' has no sink.
+-W- NetWithoutSink - /home/test_data/extern/testsuite/ec_feature_tests/feature_tests_synthesized/Quartus_Pro20.3/Quartus_Pro20.3/Stratix10/std/ram/mlab_mapping/rtl_syn/1_4/simulation/modelsim/synthesized/1_4.vo:60: net '\ram_array_rtl_0|auto_generated|lutrama0~PORTBDATAOUT6 ' has no sink.
+-W- NetWithoutSink - /home/test_data/extern/testsuite/ec_feature_tests/feature_tests_synthesized/Quartus_Pro20.3/Quartus_Pro20.3/Stratix10/std/ram/mlab_mapping/rtl_syn/1_4/simulation/modelsim/synthesized/1_4.vo:61: net '\ram_array_rtl_0|auto_generated|lutrama0~PORTBDATAOUT7 ' has no sink.
+-W- NetWithoutSink - /home/test_data/extern/testsuite/ec_feature_tests/feature_tests_synthesized/Quartus_Pro20.3/Quartus_Pro20.3/Stratix10/std/ram/mlab_mapping/rtl_syn/1_4/simulation/modelsim/synthesized/1_4.vo:62: net '\ram_array_rtl_0|auto_generated|lutrama0~PORTBDATAOUT8 ' has no sink.
+-W- NetWithoutSink - /home/test_data/extern/testsuite/ec_feature_tests/feature_tests_synthesized/Quartus_Pro20.3/Quartus_Pro20.3/Stratix10/std/ram/mlab_mapping/rtl_syn/1_4/simulation/modelsim/synthesized/1_4.vo:63: net '\ram_array_rtl_0|auto_generated|lutrama0~PORTBDATAOUT9 ' has no sink.
+-W- NetWithoutSink - /home/test_data/extern/testsuite/ec_feature_tests/feature_tests_synthesized/Quartus_Pro20.3/Quartus_Pro20.3/Stratix10/std/ram/mlab_mapping/rtl_syn/1_4/simulation/modelsim/synthesized/1_4.vo:64: net '\ram_array_rtl_0|auto_generated|lutrama0~PORTBDATAOUT10 ' has no sink.
+-W- NetWithoutSink - /home/test_data/extern/testsuite/ec_feature_tests/feature_tests_synthesized/Quartus_Pro20.3/Quartus_Pro20.3/Stratix10/std/ram/mlab_mapping/rtl_syn/1_4/simulation/modelsim/synthesized/1_4.vo:65: net '\ram_array_rtl_0|auto_generated|lutrama0~PORTBDATAOUT11 ' has no sink.
+-W- NetWithoutSink - /home/test_data/extern/testsuite/ec_feature_tests/feature_tests_synthesized/Quartus_Pro20.3/Quartus_Pro20.3/Stratix10/std/ram/mlab_mapping/rtl_syn/1_4/simulation/modelsim/synthesized/1_4.vo:66: net '\ram_array_rtl_0|auto_generated|lutrama0~PORTBDATAOUT12 ' has no sink.
+-W- NetWithoutSink - /home/test_data/extern/testsuite/ec_feature_tests/feature_tests_synthesized/Quartus_Pro20.3/Quartus_Pro20.3/Stratix10/std/ram/mlab_mapping/rtl_syn/1_4/simulation/modelsim/synthesized/1_4.vo:67: net '\ram_array_rtl_0|auto_generated|lutrama0~PORTBDATAOUT13 ' has no sink.
+-W- NetWithoutSink - /home/test_data/extern/testsuite/ec_feature_tests/feature_tests_synthesized/Quartus_Pro20.3/Quartus_Pro20.3/Stratix10/std/ram/mlab_mapping/rtl_syn/1_4/simulation/modelsim/synthesized/1_4.vo:68: net '\ram_array_rtl_0|auto_generated|lutrama0~PORTBDATAOUT14 ' has no sink.
+-W- NetWithoutSink - /home/test_data/extern/testsuite/ec_feature_tests/feature_tests_synthesized/Quartus_Pro20.3/Quartus_Pro20.3/Stratix10/std/ram/mlab_mapping/rtl_syn/1_4/simulation/modelsim/synthesized/1_4.vo:69: net '\ram_array_rtl_0|auto_generated|lutrama0~PORTBDATAOUT15 ' has no sink.
+-W- NetWithoutSink - /home/test_data/extern/testsuite/ec_feature_tests/feature_tests_synthesized/Quartus_Pro20.3/Quartus_Pro20.3/Stratix10/std/ram/mlab_mapping/rtl_syn/1_4/simulation/modelsim/synthesized/1_4.vo:70: net '\ram_array_rtl_0|auto_generated|lutrama0~PORTBDATAOUT16 ' has no sink.
+-W- NetWithoutSink - /home/test_data/extern/testsuite/ec_feature_tests/feature_tests_synthesized/Quartus_Pro20.3/Quartus_Pro20.3/Stratix10/std/ram/mlab_mapping/rtl_syn/1_4/simulation/modelsim/synthesized/1_4.vo:71: net '\ram_array_rtl_0|auto_generated|lutrama0~PORTBDATAOUT17 ' has no sink.
+-W- NetWithoutSink - /home/test_data/extern/testsuite/ec_feature_tests/feature_tests_synthesized/Quartus_Pro20.3/Quartus_Pro20.3/Stratix10/std/ram/mlab_mapping/rtl_syn/1_4/simulation/modelsim/synthesized/1_4.vo:72: net '\ram_array_rtl_0|auto_generated|lutrama0~PORTBDATAOUT18 ' has no sink.
+-W- NetWithoutSink - /home/test_data/extern/testsuite/ec_feature_tests/feature_tests_synthesized/Quartus_Pro20.3/Quartus_Pro20.3/Stratix10/std/ram/mlab_mapping/rtl_syn/1_4/simulation/modelsim/synthesized/1_4.vo:73: net '\ram_array_rtl_0|auto_generated|lutrama0~PORTBDATAOUT19 ' has no sink.
+-W- NetWithoutSink - /home/test_data/extern/testsuite/ec_feature_tests/feature_tests_synthesized/Quartus_Pro20.3/Quartus_Pro20.3/Stratix10/std/ram/mlab_mapping/rtl_syn/1_4/simulation/modelsim/synthesized/1_4.vo:74: net '\ram_array_rtl_0|auto_generated|lutrama1~PORTBDATAOUT1 ' has no sink.
+-W- NetWithoutSink - /home/test_data/extern/testsuite/ec_feature_tests/feature_tests_synthesized/Quartus_Pro20.3/Quartus_Pro20.3/Stratix10/std/ram/mlab_mapping/rtl_syn/1_4/simulation/modelsim/synthesized/1_4.vo:75: net '\ram_array_rtl_0|auto_generated|lutrama1~PORTBDATAOUT2 ' has no sink.
+-W- NetWithoutSink - /home/test_data/extern/testsuite/ec_feature_tests/feature_tests_synthesized/Quartus_Pro20.3/Quartus_Pro20.3/Stratix10/std/ram/mlab_mapping/rtl_syn/1_4/simulation/modelsim/synthesized/1_4.vo:76: net '\ram_array_rtl_0|auto_generated|lutrama1~PORTBDATAOUT3 ' has no sink.
+-W- NetWithoutSink - /home/test_data/extern/testsuite/ec_feature_tests/feature_tests_synthesized/Quartus_Pro20.3/Quartus_Pro20.3/Stratix10/std/ram/mlab_mapping/rtl_syn/1_4/simulation/modelsim/synthesized/1_4.vo:77: net '\ram_array_rtl_0|auto_generated|lutrama1~PORTBDATAOUT4 ' has no sink.
+-W- NetWithoutSink - /home/test_data/extern/testsuite/ec_feature_tests/feature_tests_synthesized/Quartus_Pro20.3/Quartus_Pro20.3/Stratix10/std/ram/mlab_mapping/rtl_syn/1_4/simulation/modelsim/synthesized/1_4.vo:78: net '\ram_array_rtl_0|auto_generated|lutrama1~PORTBDATAOUT5 ' has no sink.
+-W- NetWithoutSink - /home/test_data/extern/testsuite/ec_feature_tests/feature_tests_synthesized/Quartus_Pro20.3/Quartus_Pro20.3/Stratix10/std/ram/mlab_mapping/rtl_syn/1_4/simulation/modelsim/synthesized/1_4.vo:79: net '\ram_array_rtl_0|auto_generated|lutrama1~PORTBDATAOUT6 ' has no sink.
+-W- NetWithoutSink - /home/test_data/extern/testsuite/ec_feature_tests/feature_tests_synthesized/Quartus_Pro20.3/Quartus_Pro20.3/Stratix10/std/ram/mlab_mapping/rtl_syn/1_4/simulation/modelsim/synthesized/1_4.vo:80: net '\ram_array_rtl_0|auto_generated|lutrama1~PORTBDATAOUT7 ' has no sink.
+-W- NetWithoutSink - /home/test_data/extern/testsuite/ec_feature_tests/feature_tests_synthesized/Quartus_Pro20.3/Quartus_Pro20.3/Stratix10/std/ram/mlab_mapping/rtl_syn/1_4/simulation/modelsim/synthesized/1_4.vo:81: net '\ram_array_rtl_0|auto_generated|lutrama1~PORTBDATAOUT8 ' has no sink.
+-W- NetWithoutSink - /home/test_data/extern/testsuite/ec_feature_tests/feature_tests_synthesized/Quartus_Pro20.3/Quartus_Pro20.3/Stratix10/std/ram/mlab_mapping/rtl_syn/1_4/simulation/modelsim/synthesized/1_4.vo:82: net '\ram_array_rtl_0|auto_generated|lutrama1~PORTBDATAOUT9 ' has no sink.
+-W- NetWithoutSink - /home/test_data/extern/testsuite/ec_feature_tests/feature_tests_synthesized/Quartus_Pro20.3/Quartus_Pro20.3/Stratix10/std/ram/mlab_mapping/rtl_syn/1_4/simulation/modelsim/synthesized/1_4.vo:83: net '\ram_array_rtl_0|auto_generated|lutrama1~PORTBDATAOUT10 ' has no sink.
+-W- NetWithoutSink - /home/test_data/extern/testsuite/ec_feature_tests/feature_tests_synthesized/Quartus_Pro20.3/Quartus_Pro20.3/Stratix10/std/ram/mlab_mapping/rtl_syn/1_4/simulation/modelsim/synthesized/1_4.vo:84: net '\ram_array_rtl_0|auto_generated|lutrama1~PORTBDATAOUT11 ' has no sink.
+-W- NetWithoutSink - /home/test_data/extern/testsuite/ec_feature_tests/feature_tests_synthesized/Quartus_Pro20.3/Quartus_Pro20.3/Stratix10/std/ram/mlab_mapping/rtl_syn/1_4/simulation/modelsim/synthesized/1_4.vo:85: net '\ram_array_rtl_0|auto_generated|lutrama1~PORTBDATAOUT12 ' has no sink.
+-W- NetWithoutSink - /home/test_data/extern/testsuite/ec_feature_tests/feature_tests_synthesized/Quartus_Pro20.3/Quartus_Pro20.3/Stratix10/std/ram/mlab_mapping/rtl_syn/1_4/simulation/modelsim/synthesized/1_4.vo:86: net '\ram_array_rtl_0|auto_generated|lutrama1~PORTBDATAOUT13 ' has no sink.
+-W- NetWithoutSink - /home/test_data/extern/testsuite/ec_feature_tests/feature_tests_synthesized/Quartus_Pro20.3/Quartus_Pro20.3/Stratix10/std/ram/mlab_mapping/rtl_syn/1_4/simulation/modelsim/synthesized/1_4.vo:87: net '\ram_array_rtl_0|auto_generated|lutrama1~PORTBDATAOUT14 ' has no sink.
+-W- NetWithoutSink - /home/test_data/extern/testsuite/ec_feature_tests/feature_tests_synthesized/Quartus_Pro20.3/Quartus_Pro20.3/Stratix10/std/ram/mlab_mapping/rtl_syn/1_4/simulation/modelsim/synthesized/1_4.vo:88: net '\ram_array_rtl_0|auto_generated|lutrama1~PORTBDATAOUT15 ' has no sink.
+-W- NetWithoutSink - /home/test_data/extern/testsuite/ec_feature_tests/feature_tests_synthesized/Quartus_Pro20.3/Quartus_Pro20.3/Stratix10/std/ram/mlab_mapping/rtl_syn/1_4/simulation/modelsim/synthesized/1_4.vo:89: net '\ram_array_rtl_0|auto_generated|lutrama1~PORTBDATAOUT16 ' has no sink.
+-W- NetWithoutSink - /home/test_data/extern/testsuite/ec_feature_tests/feature_tests_synthesized/Quartus_Pro20.3/Quartus_Pro20.3/Stratix10/std/ram/mlab_mapping/rtl_syn/1_4/simulation/modelsim/synthesized/1_4.vo:90: net '\ram_array_rtl_0|auto_generated|lutrama1~PORTBDATAOUT17 ' has no sink.
+-W- NetWithoutSink - /home/test_data/extern/testsuite/ec_feature_tests/feature_tests_synthesized/Quartus_Pro20.3/Quartus_Pro20.3/Stratix10/std/ram/mlab_mapping/rtl_syn/1_4/simulation/modelsim/synthesized/1_4.vo:91: net '\ram_array_rtl_0|auto_generated|lutrama1~PORTBDATAOUT18 ' has no sink.
+-W- NetWithoutSink - /home/test_data/extern/testsuite/ec_feature_tests/feature_tests_synthesized/Quartus_Pro20.3/Quartus_Pro20.3/Stratix10/std/ram/mlab_mapping/rtl_syn/1_4/simulation/modelsim/synthesized/1_4.vo:92: net '\ram_array_rtl_0|auto_generated|lutrama1~PORTBDATAOUT19 ' has no sink.
+-W- NetWithoutSink - /home/test_data/extern/testsuite/ec_feature_tests/feature_tests_synthesized/Quartus_Pro20.3/Quartus_Pro20.3/Stratix10/std/ram/mlab_mapping/rtl_syn/1_4/simulation/modelsim/synthesized/1_4.vo:93: net '\ram_array_rtl_0|auto_generated|lutrama2~PORTBDATAOUT1 ' has no sink.
+-W- NetWithoutSink - /home/test_data/extern/testsuite/ec_feature_tests/feature_tests_synthesized/Quartus_Pro20.3/Quartus_Pro20.3/Stratix10/std/ram/mlab_mapping/rtl_syn/1_4/simulation/modelsim/synthesized/1_4.vo:94: net '\ram_array_rtl_0|auto_generated|lutrama2~PORTBDATAOUT2 ' has no sink.
+-W- NetWithoutSink - /home/test_data/extern/testsuite/ec_feature_tests/feature_tests_synthesized/Quartus_Pro20.3/Quartus_Pro20.3/Stratix10/std/ram/mlab_mapping/rtl_syn/1_4/simulation/modelsim/synthesized/1_4.vo:95: net '\ram_array_rtl_0|auto_generated|lutrama2~PORTBDATAOUT3 ' has no sink.
+-W- NetWithoutSink - /home/test_data/extern/testsuite/ec_feature_tests/feature_tests_synthesized/Quartus_Pro20.3/Quartus_Pro20.3/Stratix10/std/ram/mlab_mapping/rtl_syn/1_4/simulation/modelsim/synthesized/1_4.vo:96: net '\ram_array_rtl_0|auto_generated|lutrama2~PORTBDATAOUT4 ' has no sink.
+-W- NetWithoutSink - /home/test_data/extern/testsuite/ec_feature_tests/feature_tests_synthesized/Quartus_Pro20.3/Quartus_Pro20.3/Stratix10/std/ram/mlab_mapping/rtl_syn/1_4/simulation/modelsim/synthesized/1_4.vo:97: net '\ram_array_rtl_0|auto_generated|lutrama2~PORTBDATAOUT5 ' has no sink.
+-W- NetWithoutSink - /home/test_data/extern/testsuite/ec_feature_tests/feature_tests_synthesized/Quartus_Pro20.3/Quartus_Pro20.3/Stratix10/std/ram/mlab_mapping/rtl_syn/1_4/simulation/modelsim/synthesized/1_4.vo:98: net '\ram_array_rtl_0|auto_generated|lutrama2~PORTBDATAOUT6 ' has no sink.
+-W- NetWithoutSink - /home/test_data/extern/testsuite/ec_feature_tests/feature_tests_synthesized/Quartus_Pro20.3/Quartus_Pro20.3/Stratix10/std/ram/mlab_mapping/rtl_syn/1_4/simulation/modelsim/synthesized/1_4.vo:99: net '\ram_array_rtl_0|auto_generated|lutrama2~PORTBDATAOUT7 ' has no sink.
+-W- NetWithoutSink - /home/test_data/extern/testsuite/ec_feature_tests/feature_tests_synthesized/Quartus_Pro20.3/Quartus_Pro20.3/Stratix10/std/ram/mlab_mapping/rtl_syn/1_4/simulation/modelsim/synthesized/1_4.vo:100: net '\ram_array_rtl_0|auto_generated|lutrama2~PORTBDATAOUT8 ' has no sink.
+-W- NetWithoutSink - /home/test_data/extern/testsuite/ec_feature_tests/feature_tests_synthesized/Quartus_Pro20.3/Quartus_Pro20.3/Stratix10/std/ram/mlab_mapping/rtl_syn/1_4/simulation/modelsim/synthesized/1_4.vo:101: net '\ram_array_rtl_0|auto_generated|lutrama2~PORTBDATAOUT9 ' has no sink.
+-W- NetWithoutSink - /home/test_data/extern/testsuite/ec_feature_tests/feature_tests_synthesized/Quartus_Pro20.3/Quartus_Pro20.3/Stratix10/std/ram/mlab_mapping/rtl_syn/1_4/simulation/modelsim/synthesized/1_4.vo:102: net '\ram_array_rtl_0|auto_generated|lutrama2~PORTBDATAOUT10 ' has no sink.
+-W- NetWithoutSink - /home/test_data/extern/testsuite/ec_feature_tests/feature_tests_synthesized/Quartus_Pro20.3/Quartus_Pro20.3/Stratix10/std/ram/mlab_mapping/rtl_syn/1_4/simulation/modelsim/synthesized/1_4.vo:103: net '\ram_array_rtl_0|auto_generated|lutrama2~PORTBDATAOUT11 ' has no sink.
+-W- NetWithoutSink - /home/test_data/extern/testsuite/ec_feature_tests/feature_tests_synthesized/Quartus_Pro20.3/Quartus_Pro20.3/Stratix10/std/ram/mlab_mapping/rtl_syn/1_4/simulation/modelsim/synthesized/1_4.vo:104: net '\ram_array_rtl_0|auto_generated|lutrama2~PORTBDATAOUT12 ' has no sink.
+-W- NetWithoutSink - /home/test_data/extern/testsuite/ec_feature_tests/feature_tests_synthesized/Quartus_Pro20.3/Quartus_Pro20.3/Stratix10/std/ram/mlab_mapping/rtl_syn/1_4/simulation/modelsim/synthesized/1_4.vo:105: net '\ram_array_rtl_0|auto_generated|lutrama2~PORTBDATAOUT13 ' has no sink.
+-W- NetWithoutSink - /home/test_data/extern/testsuite/ec_feature_tests/feature_tests_synthesized/Quartus_Pro20.3/Quartus_Pro20.3/Stratix10/std/ram/mlab_mapping/rtl_syn/1_4/simulation/modelsim/synthesized/1_4.vo:106: net '\ram_array_rtl_0|auto_generated|lutrama2~PORTBDATAOUT14 ' has no sink.
+-W- NetWithoutSink - /home/test_data/extern/testsuite/ec_feature_tests/feature_tests_synthesized/Quartus_Pro20.3/Quartus_Pro20.3/Stratix10/std/ram/mlab_mapping/rtl_syn/1_4/simulation/modelsim/synthesized/1_4.vo:107: net '\ram_array_rtl_0|auto_generated|lutrama2~PORTBDATAOUT15 ' has no sink.
+-W- NetWithoutSink - /home/test_data/extern/testsuite/ec_feature_tests/feature_tests_synthesized/Quartus_Pro20.3/Quartus_Pro20.3/Stratix10/std/ram/mlab_mapping/rtl_syn/1_4/simulation/modelsim/synthesized/1_4.vo:108: net '\ram_array_rtl_0|auto_generated|lutrama2~PORTBDATAOUT16 ' has no sink.
+-W- NetWithoutSink - /home/test_data/extern/testsuite/ec_feature_tests/feature_tests_synthesized/Quartus_Pro20.3/Quartus_Pro20.3/Stratix10/std/ram/mlab_mapping/rtl_syn/1_4/simulation/modelsim/synthesized/1_4.vo:109: net '\ram_array_rtl_0|auto_generated|lutrama2~PORTBDATAOUT17 ' has no sink.
+-W- NetWithoutSink - /home/test_data/extern/testsuite/ec_feature_tests/feature_tests_synthesized/Quartus_Pro20.3/Quartus_Pro20.3/Stratix10/std/ram/mlab_mapping/rtl_syn/1_4/simulation/modelsim/synthesized/1_4.vo:110: net '\ram_array_rtl_0|auto_generated|lutrama2~PORTBDATAOUT18 ' has no sink.
+-W- NetWithoutSink - /home/test_data/extern/testsuite/ec_feature_tests/feature_tests_synthesized/Quartus_Pro20.3/Quartus_Pro20.3/Stratix10/std/ram/mlab_mapping/rtl_syn/1_4/simulation/modelsim/synthesized/1_4.vo:111: net '\ram_array_rtl_0|auto_generated|lutrama2~PORTBDATAOUT19 ' has no sink.
+
+Warning Statistics:
+-------------------
+    1   NonFullySens         missing signals in event control
+    1   NonConstantResetValue     reset value non-constant
+    1   SuperfluousSens      superfluous signals in event control
+    2   SimSynMismatch       simulation synthesis mismatch
+    7   ModPrimRedef         module or primitive redefinition
+   58   NetWithoutSink       net without sink (never read)
+-I- Elaboration of design revised succeeded.
+resource_usage_after_revised_elaboration
+-R- System - 19.00 sec total CPU time, 836 MByte used.
+-I- Converted Quartus hints written to /temp/local/NB/EC_Relation/ec_systematic/feature_tests/Quartus_Pro20.3/Quartus_Pro20.3/Stratix10/std/elab_syn_EC_Relation_Linux_x86_64_CentOS6/ec_systematic/feature_tests/Quartus_Pro20.3/Quartus_Pro20.3/Stratix10/std/elab_syn/ram/mlab_mapping/standard/5/onespin_qpro/elab-syn_setup.hints
+-I- Synthesis tool: Quartus Prime Pro
+-I- PnR tool:       Quartus Prime Pro
+-I- FPGA device:    Stratix10
+-I- Flow step:      elab_syn
+-I- Need to recalculate premapping result
+-I- Premapping took 0.13 seconds. 
+-I- Analyzing RAM reduction candidates ...
+-I- Analysis of RAM reduction candidates took 0.00 seconds . 
+-I- Traversing modules of design 'ramtest_e1' ...
+-I- Traversing modules of design 'ramtest_e1' took 0.40 seconds.
+-I- Analyzing signal dependency in design 'ramtest_e1' ...
+-I- Analyzing signal dependency in design 'ramtest_e1' took 0.15 seconds.
+-I- Analyzing loops ...
+-I- Analyzing loops took 0.04 seconds.
+-I- Analyzing primary and generated clocks ...
+-I- Computing next states ...
+-I- Computing next states took 0.00 seconds.
+-I- Analyzing primary and generated clocks took 0.01 seconds.
+-I- Checking clock dependency assumption ...
+-I- Checking clock dependency assumption took 0.12 seconds.
+-I- Clock input 'clk (posedge)' found.
+-I- Computing CSA result ...
+-I- Computing CSA result took 0.01 seconds.
+-I- Finishing CSA analysis ...
+-I- Compilation for design golden succeeded and took 0.93 seconds.
+-I- Synthesis tool: Quartus Prime Pro
+-I- PnR tool:       Quartus Prime Pro
+-I- FPGA device:    Stratix10
+-I- Flow step:      elab_syn
+-I- Use precalculated Premapping result
+-I- RAM reduction candidates identified, skipping redundant RAM reduction analysis.
+-I- Traversing modules of design 'ramtest_e1' ...
+-I- Traversing modules of design 'ramtest_e1' took 0.72 seconds.
+-I- Analyzing signal dependency in design 'ramtest_e1' ...
+-I- Analyzing signal dependency in design 'ramtest_e1' took 0.40 seconds.
+-I- Analyzing loops ...
+-I- Analyzing loops took 0.16 seconds.
+-I- Analyzing primary and generated clocks ...
+-I- Computing next states ...
+-I- Computing next states took 0.00 seconds.
+-I- Analyzing primary and generated clocks took 0.01 seconds.
+-I- Checking clock dependency assumption ...
+-I- Checking clock dependency assumption took 0.12 seconds.
+-I- Clock input 'clk (posedge)' found.
+-I- Computing CSA result ...
+-I- Computing CSA result took 0.02 seconds.
+-I- Finishing CSA analysis ...
+-I- Latch - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/fourteennm/fourteennm_mlab_block_sdp.sv:59: State '\ram_array_rtl_0|auto_generated|lutrama0 /my_lutram0/ram/ram' is classified as latch, because it is not edge sensitive.
+-I- Latch - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/fourteennm/fourteennm_mlab_block_sdp.sv:59: State '\ram_array_rtl_0|auto_generated|lutrama1 /my_lutram0/ram/ram' is classified as latch, because it is not edge sensitive.
+-I- Latch - /home/software/Altera/pro/20.3/quartus/eda/fv_lib/verilog/fourteennm/fourteennm_mlab_block_sdp.sv:59: State '\ram_array_rtl_0|auto_generated|lutrama2 /my_lutram0/ram/ram' is classified as latch, because it is not edge sensitive.
+-I- Compilation for design revised succeeded and took 0.153 seconds.
+-I- Loading Signature file '/home/cve/distributions/unreleased_distributions/EC_Relation/latest/onespin360/onespin/etc/OneSpin/xilinx.sig'.
+-I- FileParse - Cell signatures read from file '/home/cve/distributions/unreleased_distributions/EC_Relation/latest/onespin360/onespin/etc/OneSpin/xilinx.sig': 2048 items read.
+-I- Loading Signature file '/home/cve/distributions/unreleased_distributions/EC_Relation/latest/onespin360/onespin/etc/OneSpin/altera.sig'.
+-I- FileParse - Cell signatures read from file '/home/cve/distributions/unreleased_distributions/EC_Relation/latest/onespin360/onespin/etc/OneSpin/altera.sig': 1797 items read.
+-I- Loading Signature file '/home/cve/distributions/unreleased_distributions/EC_Relation/latest/onespin360/onespin/etc/OneSpin/microsemi.sig'.
+-I- FileParse - Cell signatures read from file '/home/cve/distributions/unreleased_distributions/EC_Relation/latest/onespin360/onespin/etc/OneSpin/microsemi.sig': 2100 items read.
+-I- Loading Signature file '/home/cve/distributions/unreleased_distributions/EC_Relation/latest/onespin360/onespin/etc/OneSpin/lattice.sig'.
+-I- FileParse - Cell signatures read from file '/home/cve/distributions/unreleased_distributions/EC_Relation/latest/onespin360/onespin/etc/OneSpin/lattice.sig': 507 items read.
+-I- Using FPGA flow (Altera netlist x Altera netlist).
+-I- LicTestEC - License mask matches 'altera' as expected
+-I- Entering ec mode using:
+-I- Inputs:                    8 x  8
+-I-     Primary Clocks:        1 x  1
+-I-     Primary Data Inputs:   7 x  7
+-I- States:                   27 x 30
+-I-     Flip Flops:           15 x 18
+-I-     Latches:              12 x 12
+-I-         Undriven Latches: 12 x  0
+-I-         Normal Latches:    0 x 12
+-I- Outputs:                   3 x  3
+-I- Generating formal model for golden unit...
+-I- Generation took 0.00 sec.
+-I- Generating formal model for revised unit...
+-I- Generation took 0.00 sec.
+-I- Design name clash: duplicate `ramtest_e1',
+-I- using `golden' and `revised' to avoid ambiguity.
+-I- Number of multipliers in golden design: 0
+-I- Number of multipliers in revised design: 0
+-I- Found 12 redundant states in golden design.
+-I- Number of equivalent states in design `golden': 0
+-I- Number of equivalent states in design `revised': 8
+-I- Applying 'EC' settings (ec mode).
+-I- Applying 'FPGA' settings (ec mode).
+-I- Initial state for all states of the golden design set to `explicit'.
+-I- Initial state for all states of the revised design set to `explicit'.
+-I- Applying 'PIPELINING' settings (ec mode).
+-I- Applying 'RTL2GATE' settings (ec mode).
+-I- No golden multiplier matches `*'
+-I- No revised multiplier matches `*'
+-I- Applying 'QUARTUS PRO' settings (ec mode).
+-I- Initial state for all states of the golden design set to `hdl'.
+-I- Initial state for all states of the revised design set to `hdl'.
+-I- No golden multiplier matches `*'
+-I- Current mode is 'ec'.
+-I- Hardening passed: for ("fourteennm_mlab_cell*") in golden (0 found) using the command modules
+-I- Hardening passed: for ("fourteennm_mlab_cell*") in revised (4 found) using the command modules
+resource_usage_after_ec_mode_setup
+-R- System - 21.00 sec total CPU time, 859 MByte used.
+-I- Converted Quartus hints written to /temp/local/NB/EC_Relation/ec_systematic/feature_tests/Quartus_Pro20.3/Quartus_Pro20.3/Stratix10/std/elab_syn_EC_Relation_Linux_x86_64_CentOS6/ec_systematic/feature_tests/Quartus_Pro20.3/Quartus_Pro20.3/Stratix10/std/elab_syn/ram/mlab_mapping/standard/5/onespin_qpro/elab-syn.hints
+-I- Synthesis tool: Quartus Prime Pro
+-I- PnR tool:       Quartus Prime Pro
+-I- FPGA device:    Stratix10
+-I- Flow step:      elab_syn
+-I- Start mapping phase I
+-I- Mapped phase I inputs:  8.
+-I- Mapped phase I states:  9/3 (phase I unmapped: 12/27).
+-I- Mapped phase I outputs: 3.
+-I- Mapped phase I internal: 12.
+-I- Finished phase I mapping of Inputs/States/Outputs in 0.00 sec.
+-I- Start mapping phase II
+-I- Mapped inputs:  8.
+-I- Mapped states:  9/3 (unmapped: 12/27).
+-I- Mapped outputs: 3.
+-I- Mapped internal: 24.
+-I- Finished mapping of Inputs/States/Outputs in 0.00 sec.
+resource_usage_after_map
+-R- System - 21.00 sec total CPU time, 859 MByte used.
+-I- Generating combined model.
+-I- Reduced model after mapping and constraining:
+-I- Inputs:              8 x  8  
+-I-     Primary Clocks:  1 x  1  
+-I-     Data Inputs:     7 x  7  
+-I- States:             21 x 30  
+-I- Outputs:             3 x  3  
+-I- Assertions:          0 x  0  
+-I- Instantiating initial state.
+-I- 
+-I- Adding state-mapping to analysis.
+-I- Checking mapping relations in initial state.
+-I- Checking 24 OPEN compare points
+-I- step t=0:  HOLD=24 FAIL=0
+-I- All mapping relations hold in initial state.
+-I- 
+-I- >>>>>> Check (combinational) of 36 open compare points
+-I-  
+-R- 0.05 seconds CPU time so far, 861 MB in use.
+-R- Compare points:  HOLD=36  FAIL=0  OPEN=0  TODO=0
+-I- <<<<<< Check (combinational) finished
+-I- 
+-R- Outputs:  HOLD= 3
+-R- States:   HOLD= 9
+-R- Internal: HOLD=24
+-R- The designs are equivalent.
+resource_usage_after_compare
+-R- System - 21.00 sec total CPU time, 860 MByte used.
+
+----------------------------------------------------------
+-R- Quartus Formal Verification passed for Synthesis stage
+----------------------------------------------------------
+-R- Synthesis passed
+-R- Outputs:  HOLD=3    OPEN=0    FAIL=0
+-R- States:   HOLD=9    OPEN=0    FAIL=0
+-R- Internal: HOLD=24    OPEN=0    FAIL=0
+-R- The designs are equivalent.
+----------------------------------------------------------

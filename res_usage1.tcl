@@ -4,7 +4,7 @@ set title [ list "test name" "runtime elab golden" "memory elab golden" "runtime
 
 set ::init [ list "--" "--" "--" "--" "--" "--" "--" "--" "--" "--" "--" "--" "--" "--" "0" "0" "0" "0" "0" "0" "0" "0" "0" "0" "--" "--" "--" ]
 
-set time_var 0
+set ::time_var 0
 set data [list] 
 set some_data 1
 
@@ -50,16 +50,18 @@ proc parse_file { dline } {
         }
 		
 	lset data 0 [ lindex [ lindex $dline 0 1] ]
-	puts [lindex $data 0 ]
+	#puts [lindex $data 0 ]
 	for {set i 0} { $i <= [ expr { [llength $dline ] - 1 } ] } {incr i} {
 		if { [ string match "*resource?usage*" [ lindex $dline $i] ] == 1 } {
-			puts [lindex $dline $i] 
+			#puts [lindex $dline $i] 
 			set t_id [ resUsage [ lindex $dline $i ] ]
-			puts "t_id is $t_id"
+			#puts "t_id is $t_id"
 			if { $t_id >= 0 } {
 				set m_id [ expr { $t_id +1 } ]
 				set system_line [ lindex $dline [expr { $i + 1 }] ]
-				parse_system_line $system_line $t_id $m_id
+                set $::time_var 0
+                puts "this is a time variableeee $::time_var"
+				parse_system_line $system_line $t_id $m_id 0
 				switch $t_id {
 					7  { set flagM 1 }
 					9  { set flagM 0
@@ -93,7 +95,7 @@ proc parse_file { dline } {
 		}
 	}
 	parse_compare_info [ lrange $dline $ind $ind1 ] 11 12 25
-	puts [ resUsage "resource usage after map"]
+	#puts [ resUsage "resource usage after map"]
 	puts $mf [ join $data ", " ]
 	close $mf
 }
@@ -105,7 +107,7 @@ proc parse_line { line t_id } {
 	set c_t 0
 	set l [split $line " "]
 	set form [lsearch -regexp $l "minutes."]
-	puts " format for line ***** $l ********* is set to  $form "
+	#puts " format for line ***** $l ********* is set to  $form "
 	if {[ regexp {[0-9]+.?[0-9]+} $l t]} {
 		# the calculation below is not work
 		#set time_var [expr {$time_var + $t}]
@@ -116,7 +118,7 @@ proc parse_line { line t_id } {
 			set t [ expr {$m * 60 + $s} ]
 		}
     		lset data $t_id $t
-		puts " [lindex $title $t_id] is $t"
+		#puts " [lindex $title $t_id] is $t"
 	 } else {
 		 puts "Doesn't find number in $l"
 	 }
@@ -144,7 +146,7 @@ proc parse_status_info { t_line st_id} {
 }
 
 proc parse_map_line { line m_id } {
-	puts "mapping line $line"
+	#puts "mapping line $line"
 	global time_var 
 	global data 
 	global title
@@ -158,18 +160,18 @@ proc parse_map_line { line m_id } {
 		foreach sl $l {
 			if { [string is integer -strict $sl] == 1 } {
 				set t $sl
-				puts " [lindex $title $m_id] is $t"
+				#puts " [lindex $title $m_id] is $t"
 				lset data $m_id $t
 			}
 		}
 		set split_num [split [lindex $l [incr l_index ]] ")/"]
-		puts " [lindex $title $m_id_1] is [lindex $split_num 0]"
+		#puts " [lindex $title $m_id_1] is [lindex $split_num 0]"
     		lset data $m_id_1 [lindex $split_num 0]
-		puts " [lindex $title $m_id_2] is [lindex $split_num 1]"
+		#puts " [lindex $title $m_id_2] is [lindex $split_num 1]"
     		lset data $m_id_2 [lindex $split_num 1]
 	} else {
 		set t [lindex [split [lindex $l end] "."] 0]
-		puts " [lindex $title $m_id] is $t"
+		#puts " [lindex $title $m_id] is $t"
 		lset data $m_id $t
 	}
 }
@@ -182,35 +184,37 @@ proc parse_compare_info { sublist t_id m_id c_id } {
 	global title
 	#puts "sublist is $sublist"
 	set time_mem_line [ lsearch -all -inline -regexp $sublist "CPU time" ]
-	puts "time mem line is $time_mem_line" 
+	#puts "time mem line is $time_mem_line" 
 	set l [split $time_mem_line " "]
-	puts "l value is $l " 
+	#puts "l value is $l " 
 	set type_line [ lindex $sublist 19 ]
-	puts "type line is $type_line"
+	#puts "type line is $type_line"
 	set c_t [lindex [split $type_line "()" ] 1]
 	#puts "type line is $type_line"
 	# this part shoulld be modified to support full time formal
 	foreach sl $l {
 		if { [string is integer -strict $sl] == 1 } {
 			set m $sl
-			puts " [lindex $title $m_id] is $m"
+			#puts " [lindex $title $m_id] is $m"
 			lset data $m_id $m
 		 } elseif {[string is double -strict $sl] == 1 } {
 			set t $sl
-			puts " [lindex $title $t_id] is $t"
+			#puts " [lindex $title $t_id] is $t"
 			lset data $t_id $t
 		}
 	}
 	if {$t_id < [llength $title] } {
-		puts " [lindex $title $c_id] is $c_t"
-		puts $c_t
+		#puts " [lindex $title $c_id] is $c_t"
+		#puts $c_t
 		lset data $c_id $c_t
 	}
-        puts $data	
+        #puts $data	
 }
 
-proc parse_system_line { sublist t_id m_id } {
-	global time_var 
+proc parse_system_line { sublist t_id m_id time_var} {
+
+	#global time_var 
+    #set $time_var 0
 	global data 
 	global title
 	set c_t 0
@@ -218,17 +222,17 @@ proc parse_system_line { sublist t_id m_id } {
 	puts $l_index
 	if { $l_index > 0 } {
 		set l [split $sublist " "]
-		puts "----------------------------------"
-		puts $l
+		#puts "----------------------------------"
+		#puts $l
 		set mid_index [ lsearch -regexp $l min ]
-		puts $mid_index
+		#puts $mid_index
 		if {$mid_index > 0 } {
 			set sec1 [lindex $l [expr { $mid_index + 1}]]
 			set min1 [lindex $l [expr { $mid_index - 1}]]
     			#set sec [scan $sec1 %d%s n rest]
 		 	set min [scan $min1 %d%s n rest]
 			set t [ expr $min * 60 + $sec1 ]
-			puts "time is $t"
+			#puts "time is $t"
 			set tmp 0
 			set mem_index1 [ lsearch -regexp $l "virtMem:" ]
 			set mem_index [lsearch -regexp $l "MByte" ]
@@ -239,7 +243,7 @@ proc parse_system_line { sublist t_id m_id } {
 				set tmp  $mem_index
 			}
 			set m [lindex $l [expr { $tmp - 1}]]
-			puts $tmp
+			#puts $tmp
 		} else {
 			foreach sl $l {
 				if { [string is integer -strict $sl] == 1 } {
@@ -250,21 +254,25 @@ proc parse_system_line { sublist t_id m_id } {
 			}
 		}
 		if {$m_id < [llength $title]} {
-			puts " [lindex $title $m_id] is $m"
+			#puts " [lindex $title $m_id] is $m"
 			lset data $m_id $m
 		}
 		if {$t_id < [llength $title]} {
 			if {[lindex $title $t_id] == "overall run time"} {
+                puts "hiiiiiiiiiiiiiiiiiiiiii"
 				lset data $t_id $t
-                		puts " [lindex $title $t_id] is $t"
-			} else { 
+             #   		puts " [lindex $title $t_id] is $t"
+			} else {
+                puts "hellooooooooooooooooooo" 
 				set c_t [expr {$t - $time_var}]
-				puts $c_t
+                puts "t is $t"
+				puts "c_t is $c_t"
 				lset data $t_id $c_t
-				puts " [lindex $title $t_id] is $c_t"
+			#	puts " [lindex $title $t_id] is $c_t"
 			}
 		}
 		set time_var $t
+        puts " $time_var is time var " 
 	}
 } 
 
